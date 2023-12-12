@@ -8,7 +8,7 @@
 .nav-cont{
     background-color: #0967A7;
     box-shadow: .2rem .3rem .2rem grey;
-    margin: 0%;
+  height: 4.8rem;
     .container{
         display: flex;
         justify-content: space-between;
@@ -16,6 +16,7 @@
             display: flex;
                 img{ width: 5rem;
                     position: absolute;
+                margin-bottom: 1rem;
          
            
         }
@@ -37,13 +38,19 @@ margin-top: 2.6rem;
   
         li{
             list-style-type: none;
-            
+            align-items: center;
         }
         a{
             text-decoration: none;
-           
+           font-size: 1.2rem;
              color: white;
              padding: .7rem;
+             &:hover{
+                text-decoration: underline;
+            text-decoration-color: darkslategrey;
+                text-shadow: .1rem .1rem grey;
+                text-transform: capitalize;
+                }
         }
     }
 }
