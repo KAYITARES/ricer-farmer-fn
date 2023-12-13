@@ -1,14 +1,12 @@
 import React from "react";
 import '../sass/main.scss'
-import Revission from "../component/header";
-import Card from "../component/cards";
+import Home from "../component/home";
 
 
 function Welcome(){
 return (
     <>
-    <Revission/>
-    <Card/>
+   <Home/>
     </>
 )
 }

@@ -1,1 +1,20 @@
-@import 'component/home.scss';
+@import "abstract/extends.scss";
+@import "abstract/function.scss";
+@import "abstract/mixins.scss";
+@import "abstract/variable.scss";
+
+@import "base/animation.scss";
+@import "base/base.scss";
+@import "base/typography.scss";
+@import "base/utilities.scss";
+
+
+@import "component/button.scss";
+@import "component/cards.scss";
+@import "component/home.scss";
+
+@import "layout/footer.scss";
+@import "layout/header.scss";
+
+
+
