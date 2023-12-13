@@ -45,11 +45,13 @@ margin-top: 2.6rem;
            font-size: 1.2rem;
              color: white;
              padding: .7rem;
+             transition: all 2s;
              &:hover{
                 text-decoration: underline;
             text-decoration-color: darkslategrey;
                 text-shadow: .1rem .1rem grey;
                 text-transform: capitalize;
+                
                 }
         }
     }
