@@ -1,7 +1,8 @@
 .contact-cont{
-    height: 55vh;
-    background-color: #0968a7df;
-    margin-top: .2rem;
+    height: 87.5vh;
+    // background-image: linear-gradient(to bottom,rgba(0, 106, 255, 0.451), white );
+    // background-position: 2px 1px;
+    background-color: rgba(0, 106, 255, 0.287);
 }
 .containes{
   
@@ -11,104 +12,125 @@
     height: 100%;
     margin-right: 2rem;
     width:100%;
-    
+   
 }
 .lgd{
    
-    // margin: .5rem;
+     
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 7rem;
-    color: rgba(255, 255, 255, 0.777)
-    
+    margin-left: 5rem;
+    color: rgba(255, 255, 255, 0.875);
+   
 }
 .field{
     border-radius: .3rem;
-    padding: .3rem;
+    height: 20rem;
+    // margin-top: 15%;
+    margin-top: 10rem;
+    
+}
+.lbe-container{
+    align-items: center;
+    margin-left:5% ;
+    margin-top: 6%;
+    
 }
 .l1{
-    margin: .6rem;
-    color: rgba(255, 255, 255, 0.77);
-    font-size: large;
-    letter-spacing: .1rem;
+    
     input{
         width: 17.8rem;
         height: 1.5rem;
         border: none;
-        border-radius: .2rem;
-        background-color: rgba(128, 128, 128, 0.681);
+        border-radius: 50px;
+        padding: 1rem;
+        background-color: white;
+        margin: .2rem;
+        margin-left: .4rem;
     }
 }
 .l2{
-    margin: .6rem;
-    color: rgba(255, 255, 255, 0.805);
-    font-size: large;
-    letter-spacing: .1rem;
+    
     input{
         width: 17.8rem;
         height: 1.5rem;
         border: none;
-        border-radius: .2rem;
-        background-color: rgba(128, 128, 128, 0.681);
+        border-radius: 50px; 
+        padding: 1rem;
+        background-color: white;
+        margin: .2rem;
     }
 }
 
 .l3{
-    margin: .6rem;
-    color: rgba(255, 255, 255, 0.755);
-    font-size: large;
-    letter-spacing: .1rem;
+   
     input{
         width: 17.8rem;
         height: 1.5rem;
         border: none;
-        border-radius: .2rem;
-        background-color: rgba(128, 128, 128, 0.681);
+        border-radius: 50px;
+        padding: 1rem;
+        background-color: white;
+        margin: .2rem ;
+        margin-left: 1.7rem;
     }
 }
 
 .l4{
-    margin: .6rem;
-    color: rgba(255, 255, 255, 0.779);
-    font-size: large;
-    letter-spacing: .1rem;
-    textarea{
+    .textarea{
+        width: 17.8rem;
+        height: 5rem;
         border: none;
-        border-radius: .2rem;
-        background-color: rgba(128, 128, 128, 0.681);
-     
+        border-radius: 25px;
+        padding: 1rem;
+        background-color: white;
+        margin: .2rem ;
+        margin-left: 1.5rem;
     }
 }
 h2{
-    color: rgba(255, 255, 255, 0.789);
+    color: black;
+    text-align: center;
     padding: 1rem;
+    text-transform: uppercase;
+    position: absolute;
+  margin-top: 3rem;
+  margin-left: 22rem;
+    
+    
 }
 .fom-conto{
   
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .par{
    
     
-    p{
+    img{
         font-size: 1rem;
-        padding: 1rem;
-        width: 100%;
-        color: rgba(255, 255, 255, 0.882);
-        padding-right: 8rem;
+     margin-left: 30%;
+     margin-top: 20%;
+        width: 350px;
+        height: 400px;
+    
         
     }
 }
 .btn{
-    width: 17.8rem;
+    // width: 17.8rem;
         height: 1.8rem;
         border: none;
         border-radius: 5rem;
-        width: 100%;
-     background-color: rgba(128, 128, 128, 0.727);
+        width: 75%;
+background-image: linear-gradient(to right,blue, green, yellow );
+background-position: 1px 1px;
+
         font-size: 1rem;
         color: white;
         font-weight: 400;
+        margin-left: 1.7rem;
+        margin-top: 1rem;
 }
