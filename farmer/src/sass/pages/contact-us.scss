@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-cont{
+    background-color: rgb(87, 128, 161);
+    height: 100vh;
+    h1{
+        padding:1rem;
+        text-align: center;
+    }
+    .contact-icon{
+        display: flex;
+        justify-content: space-around;
+     .location{
+        background-color:rgb(180, 120, 52);;
+        text-align: center;
+        width: 20%;
+        padding: 0.5rem;
+        list-style: none;
+        transition: all 3.5s;
+        cursor: pointer;
+        h5{
+            padding: .5rem;
+        }
+        li{
+          text-align: center;
+          padding: 0.3rem;
+          color: white;
+        }
+     } 
+    .location:hover{
+        transform: rotate(10deg);
+     }
+    }
+
+}
