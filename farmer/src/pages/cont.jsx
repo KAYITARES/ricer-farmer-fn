@@ -10,8 +10,7 @@ export default function Contact(){
  </div> 
 <div className="fom-conto">
  <div className="par">
-
- <img src={emil} alt="" />
+<img src={emil} alt="" />
 </div>
  
  <div className="containes">

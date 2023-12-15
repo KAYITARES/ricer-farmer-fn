@@ -14,6 +14,8 @@
     width:100%;
    
 }
+
+
 .lgd{
    
      
@@ -21,7 +23,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
-    color: rgb(156, 153, 153);
+    color: rgba(156, 153, 153, 0.914);
    
 }
 .field{
@@ -89,6 +91,7 @@
         margin-left: 1.5rem;
     }
 }
+
 h2{
     color: black;
     text-align: center;
@@ -97,7 +100,7 @@ h2{
     position: absolute;
   margin-top: 3rem;
   margin-left: 22rem;
-    
+   
     
 }
 .fom-conto{
@@ -135,3 +138,200 @@ background-position: 1px 1px;
         margin-left: 1.7rem;
         margin-top: 1rem;
 }
+
+@media(max-width:663px){
+    .contact-cont{
+       width:100%;
+position: fixed;
+height: 100%;
+      
+       h2{
+        // background-color: red;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 1rem;
+       }
+    }
+}
+
+@media(max-width:569px){
+    .contact-cont{
+       width:100%;
+position: fixed;
+height: 100%;
+      
+       h2{
+        // background-color: red;
+        text-align: center;
+        margin-top: 5rem;
+        font-size: 1rem;
+        margin-left: 5rem;
+       }
+    }
+}
+
+@media(max-width:313px){
+    .contact-cont{
+       width:100%;
+position: fixed;
+height: 100%;
+      
+       h2{
+        // background-color: red;
+        margin-left: 1px;
+        margin-top: 5rem;
+        font-size: 1rem;
+       }
+    }
+}
+
+@media(max-width:109px){
+    .contact-cont{
+       width:100%;
+position: fixed;
+height: 100%;
+      
+       h2{
+        // background-color: red;
+        margin-left: 1px;
+        margin-top: 5rem;
+        font-size: .7rem;
+        
+       }
+    }
+}
+
+@media(max-width:722px){
+    .fom-conto{
+       width:100%;
+// position: fixed;
+height: 100%;
+// background-color: yellowgreen;
+      
+       img{
+        // background-color: red;
+        margin-left: 1px;
+        // margin-top: 5rem;
+        font-size: .7rem;
+        width: 100%;
+        height: 100%;
+       }
+    }
+    .containes{
+        // background-color: rebeccapurple;
+        .field{
+            // background-color: red;
+            width: 100%;
+           
+        }
+        
+    }
+}
+
+@media(max-width:512px){
+    .fom-conto{
+       width:100%;
+// position: fixed;
+height: 100%;
+// background-color: yellowgreen;
+display: block;
+      
+       img{
+        // background-color: red;
+        margin-left: 1px;
+        // margin-top: 5rem;
+        font-size: .7rem;
+        width: 100%;
+        // height: 100%;
+        // padding: 0 2rem 0 0 ;
+        margin-right: 5rem;
+       }
+    }
+    .containes{
+        // background-color: blueviolet;
+        .field{
+            // background-color: green;
+            width: 100%;
+            input{
+                // background-color: aquamarine;
+                margin-left: 2rem;
+                margin-right: 3rem;
+            }
+          
+        }
+        
+    }
+}
+
+
+@media(max-width:512px){
+    .fom-conto{
+       width:100%;
+// position: fixed;
+height: 100%;
+// background-color: yellowgreen;
+display: block;
+      
+       img{
+        display: none;
+       }
+    }
+    .containes{
+        // background-color: blueviolet;
+        .field{
+            // background-color: green;
+            width: 100%;
+            height: 65%;
+
+            input{
+                // background-color: aquamarine;
+                // margin: .5rem .5rem;
+            }
+            .lgd{
+margin-right: 6rem;
+font-size: 10.90px;
+            }
+          .l2{
+            margin-bottom:1.3rem;
+          }
+        }
+        
+    }
+}
+
+@media(max-width:286px){
+    .fom-conto{
+       width:100%;
+// position: fixed;
+height: 100%;
+// background-color: yellowgreen;
+display: block;
+      
+       img{
+        display: none;
+       }
+    }
+    .containes{
+        // background-color: blueviolet;
+        .field{
+          
+            width: 100%;
+            height: 70%;
+
+            input{
+                // background-color: aquamarine;
+               margin-left: 1rem;
+            }
+            .lgd{
+margin-right: 3rem;
+font-size: 10.90px;
+
+            }
+          .l2{
+            margin-bottom:1.3rem;
+          }
+        }
+        
+    }
+}
+
