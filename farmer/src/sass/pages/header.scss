@@ -35,18 +35,20 @@ margin-top: 1.7rem;
         display: flex;
        align-items: center;
        margin-top: 1.8rem;
+       transition: all 7s;
   
         li{
             list-style-type: none;
             align-items: center;
             text-transform: capitalize;
+            
         }
         a{
             text-decoration: none;
            font-size: 1.2rem;
              color: rgba(255, 255, 255, 0.778);
              padding: .7rem;
-            
+              
              &:hover{
              color: blue;
                 text-shadow: .1rem .1rem grey;
@@ -54,7 +56,7 @@ margin-top: 1.7rem;
                 font-size: 1.8rem;
                 width: 20px;
                 height: 20px;
-                 transition: all 2s;
+              text-decoration: underline;
                 }
         }
     }
