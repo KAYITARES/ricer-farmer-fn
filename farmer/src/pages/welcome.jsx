@@ -1,5 +1,5 @@
 import React from "react";
-import '../sass/main.scss'
+import '../sass/main.scss';
 import Home from "../component/home";
 
 
