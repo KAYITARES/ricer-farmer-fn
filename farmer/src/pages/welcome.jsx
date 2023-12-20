@@ -1,16 +1,22 @@
 import React from "react";
-import '../sass/main.scss'
-import Revission from "./header";
-import Card from "../component/cards";
-import Navbar from "./header";
+import '../sass/main.scss';
+import Home from "../component/home";
+import Navbar from "../pages/header";
+import About from "../component/aboutus"
+import Card from "../component/card"
+
+
+
 
 
 function Welcome(){
 return (
     <>
-    
-    <Navbar/>
+   <Navbar />
+   <Home />
+<About/>
+<Card/>
     </>
-)
-}
+    )
+    }
 export default Welcome
