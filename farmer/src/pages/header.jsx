@@ -17,7 +17,7 @@ import '../sass/pages/header.scss'
             <li><a href="#">who we are</a></li>
             <li><a href="#">contact us</a></li>
             <li><a href="#">impact</a></li>
-            <li><a href="#">product</a></li>
+            <li><a href="/product">product</a></li>
             <li><a href="#">sign up</a></li>
             <li><a href="#">login</a></li>
         </ul>
