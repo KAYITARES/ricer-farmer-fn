@@ -1,6 +1,6 @@
 import React from "react";
 import emil from "../assets/image/helloo.png"
-
+import Footer from "../component/footer";
 export default function Contact(){
     return(
         <>
@@ -14,7 +14,7 @@ export default function Contact(){
 </div>
  
  <div className="containes">
-<fieldset className="field">
+<fieldset  >
     <legend className="lgd">Rwangingo Rice Farmer Contact</legend>
 
         <form action="#" method="post" className="fom1">
@@ -49,6 +49,7 @@ export default function Contact(){
         </div>
         </div>
         </div>
+        <Footer/>
         </>
     )
 }

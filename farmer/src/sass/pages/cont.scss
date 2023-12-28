@@ -1,5 +1,5 @@
 .contact-cont{
-    height: 87.5vh;
+    height: 100vh;
     // background-image: linear-gradient(to bottom,rgba(0, 106, 255, 0.451), white );
     // background-position: 2px 1px;
     background-color: rgba(0, 106, 255, 0.287);
@@ -23,10 +23,10 @@
     justify-content: center;
     align-items: center;
     margin-left: 5rem;
-    color: rgba(156, 153, 153, 0.914);
-   
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
-.field{
+fieldset{
     border-radius: .3rem;
     height: 20rem;
     // margin-top: 15%;
@@ -139,199 +139,68 @@ background-position: 1px 1px;
         margin-top: 1rem;
 }
 
-@media(max-width:663px){
-    .contact-cont{
-       width:100%;
-position: fixed;
-height: 100%;
-      
-       h2{
-        // background-color: red;
-        text-align: center;
-        margin-top: 5rem;
-        font-size: 1rem;
-       }
+@media screen and (max-width:844px) {
+    img{
+        display: none;
+    }
+    .hello{
+       margin: 10%;
+       display: flex;
     }
 }
 
-@media(max-width:569px){
+@media screen and (max-width:419px) {
+    img{
+        display: none;
+    }
+    .hello{
+       margin: 10%;
+       display: flex;
+       font-size: 20px;
+    }
     .contact-cont{
-       width:100%;
-position: fixed;
-height: 100%;
-      
-       h2{
-        // background-color: red;
-        text-align: center;
-        margin-top: 5rem;
-        font-size: 1rem;
-        margin-left: 5rem;
-       }
+        width: 100%;
     }
 }
 
-@media(max-width:313px){
+@media screen and (max-width:366px) {
+    img{
+        display: none;
+    }
+    .hello{
+       margin: 10%;
+       display: flex;
+       font-size: 20px;
+    }
     .contact-cont{
-       width:100%;
-position: fixed;
-height: 100%;
-      
-       h2{
-        // background-color: red;
-        margin-left: 1px;
-        margin-top: 5rem;
-        font-size: 1rem;
-       }
+        width: 100%;
+    }
+
+    fieldset{
+        background-color: blue;
+        width: 100%;
     }
 }
 
-@media(max-width:109px){
-    .contact-cont{
-       width:100%;
-position: fixed;
-height: 100%;
-      
-       h2{
-        // background-color: red;
-        margin-left: 1px;
-        margin-top: 5rem;
-        font-size: .7rem;
-        
-       }
+@media screen and (max-width:318px) {
+    img{
+        display: none;
     }
-}
+    .hello{
+       margin: 10%;
+       display: flex;
+       font-size: 15px;
+    }
+    .contact-cont{
+       width: 100vd;
+    }
 
-@media(max-width:722px){
-    .fom-conto{
-       width:100%;
-// position: fixed;
-height: 100%;
-// background-color: yellowgreen;
-      
-       img{
-        // background-color: red;
-        margin-left: 1px;
-        // margin-top: 5rem;
-        font-size: .7rem;
+    fieldset{
+        background-color: blue;
         width: 100%;
         height: 100%;
-       }
-    }
-    .containes{
-        // background-color: rebeccapurple;
-        .field{
-            // background-color: red;
+        input{
             width: 100%;
-           
         }
-        
     }
 }
-
-@media(max-width:512px){
-    .fom-conto{
-       width:100%;
-// position: fixed;
-height: 100%;
-// background-color: yellowgreen;
-display: block;
-      
-       img{
-        // background-color: red;
-        margin-left: 1px;
-        // margin-top: 5rem;
-        font-size: .7rem;
-        width: 100%;
-        // height: 100%;
-        // padding: 0 2rem 0 0 ;
-        margin-right: 5rem;
-       }
-    }
-    .containes{
-        // background-color: blueviolet;
-        .field{
-            // background-color: green;
-            width: 100%;
-            input{
-                // background-color: aquamarine;
-                margin-left: 2rem;
-                margin-right: 3rem;
-            }
-          
-        }
-        
-    }
-}
-
-
-@media(max-width:512px){
-    .fom-conto{
-       width:100%;
-// position: fixed;
-height: 100%;
-// background-color: yellowgreen;
-display: block;
-      
-       img{
-        display: none;
-       }
-    }
-    .containes{
-        // background-color: blueviolet;
-        .field{
-            // background-color: green;
-            width: 100%;
-            height: 65%;
-
-            input{
-                // background-color: aquamarine;
-                // margin: .5rem .5rem;
-            }
-            .lgd{
-margin-right: 6rem;
-font-size: 10.90px;
-            }
-          .l2{
-            margin-bottom:1.3rem;
-          }
-        }
-        
-    }
-}
-
-@media(max-width:286px){
-    .fom-conto{
-       width:100%;
-// position: fixed;
-height: 100%;
-// background-color: yellowgreen;
-display: block;
-      
-       img{
-        display: none;
-       }
-    }
-    .containes{
-        // background-color: blueviolet;
-        .field{
-          
-            width: 100%;
-            height: 70%;
-
-            input{
-                // background-color: aquamarine;
-               margin-left: 1rem;
-            }
-            .lgd{
-margin-right: 3rem;
-font-size: 10.90px;
-
-            }
-          .l2{
-            margin-bottom:1.3rem;
-          }
-        }
-        
-    }
-}
-

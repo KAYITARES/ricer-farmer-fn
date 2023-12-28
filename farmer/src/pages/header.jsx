@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../assets/image/logo.png";
-import '../sass/pages/header.scss'
+import '../sass/pages/header.scss';
+import MenuIcon from '@mui/icons-material/Menu';
+import Footer from "../component/footer";
 
  function Navbar(){
     return(
@@ -11,19 +13,24 @@ import '../sass/pages/header.scss'
         <img src={logo} alt="" />
        <h2>RRF</h2>
     </div>
-    <div className="links">
-        <ul>
+    
+        <ul className="links">
             <li><a href="#">home</a></li>
             <li><a href="#">who we are</a></li>
-            <li><a href="#">contact us</a></li>
+            <li><a href="/contact">contact us</a></li>
             <li><a href="#">impact</a></li>
             <li><a href="#">product</a></li>
-            <li><a href="#">sign up</a></li>
+            <li><a href="/signup">sign up</a></li>
             <li><a href="#">login</a></li>
+       
         </ul>
-    </div>
+        <div className="menu-icon">
+            <MenuIcon className="icon"/>
+        </div>
+   
     </div>
 </div>
+<Footer/>
 </>
 
     )
