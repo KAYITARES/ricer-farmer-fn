@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../assets/image/logo.png";
-import '../sass/pages/header.scss';
+
 import MenuIcon from '@mui/icons-material/Menu';
-import Footer from "../component/footer";
+
 
  function Navbar(){
     return(
@@ -30,7 +30,7 @@ import Footer from "../component/footer";
    
     </div>
 </div>
-<Footer/>
+
 </>
 
     )

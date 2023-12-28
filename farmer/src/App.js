@@ -1,13 +1,14 @@
 
-import {BrowserRouter as Router,Routes,Route}from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Welcome from './pages/welcome';
 import Contact from './pages/cont';
 import SignUp from './pages/signup';
 import Footer from './component/footer';
 import Logo from './component/logo';
+import "../src/sass/main.scss"
 function App() {
   return (
-    <>
+ 
 <Router>
   <Routes>
     <Route path='/' element={<Welcome/>}></Route>
@@ -17,7 +18,7 @@ function App() {
     <Route path='/logo' element={<Logo/>}></Route>
   </Routes>
 </Router>
-  </>
+
   
   );
 }

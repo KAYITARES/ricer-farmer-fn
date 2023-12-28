@@ -1,10 +1,11 @@
 import React from "react";
 import Logo from "./logo";
-import Navbar from "../component/header";
+
+
 function Footer(){
     return(
         <>
-        <Navbar/>
+  
       <div className="foote-container">
         <div className="fooerr">
             <div className="parr">

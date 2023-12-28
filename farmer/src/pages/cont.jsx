@@ -1,9 +1,11 @@
 import React from "react";
 import emil from "../assets/image/helloo.png"
 import Footer from "../component/footer";
+import Navbar from "../component/header";
 export default function Contact(){
     return(
         <>
+        <Navbar/>
         <div className="contact-cont">
      <div className="head">  
  <h2 className="hello">have some questions</h2>
