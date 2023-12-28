@@ -1,7 +1,9 @@
 
 import {BrowserRouter as Router,Routes,Route}from 'react-router-dom'
 import Welcome from './pages/welcome';
-import Products from './pages/product';
+import Product from './pages/product';
+import Single from './pages/Singleproduct';
+
 
 
 
@@ -10,7 +12,9 @@ function App() {
 <Router>
   <Routes>
     <Route path='/' element={<Welcome/>}></Route>
-    <Route path='product' element={<Products/>}></Route>
+    <Route path='/product' element={<Product/>}></Route>
+    <Route path='/Singleproduct' element={<Single/>}></Route>
+   
   </Routes>
 </Router>
   );
