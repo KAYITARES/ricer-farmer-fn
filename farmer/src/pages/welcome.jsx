@@ -9,6 +9,10 @@ import Card from "../component/card"
 
 
 
+
+
+
+
 function Welcome(){
 return (
     <>
@@ -16,6 +20,7 @@ return (
    <Home />
 <About/>
 <Card/>
+
     </>
     )
     }

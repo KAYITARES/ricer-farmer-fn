@@ -13,13 +13,13 @@ import '../sass/pages/header.scss';
     </div>
     <div className="links">
         <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">who we are</a></li>
-            <li><a href="#">contact us</a></li>
-            <li><a href="#">impact</a></li>
-            <li><a href="#">product</a></li>
-            <li><a href="#">sign up</a></li>
-            <li><a href="#">login</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Who we are</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Impact</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Login</a></li>
         </ul>
     </div>
     </div>
