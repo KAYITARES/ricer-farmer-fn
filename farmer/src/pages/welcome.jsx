@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navbar from "../component/header";
-import Footer from "../component/footer";
+// import Footer from "../component/footer";
 
 
 
@@ -10,7 +10,7 @@ return (
     <>
     
     <Navbar/>
-  <Footer/>
+  
   
     </>
 )
