@@ -20,6 +20,16 @@ function Single(){
         const [isModalOpen, setIsModalOpen] = useState(false);
         const [isopen, setisopen] =useState(false)
         const [show, close]=useState(false)
+        const [plus,setplus]=useState(1)
+        const price=plus*1200
+
+        const increament=()=>{
+            setplus (plus+1)
+        }
+        const decreament=()=>{
+            setplus(plus-1)
+            
+        }
       
         const showModal = () => {
           setIsModalOpen(true);
@@ -106,17 +116,18 @@ function Single(){
             <div className="dicrition">
                 <h1>Kigoli:Best rice</h1>
                 <p>by <span>rwangingo.com</span></p>
-                <p>Price: <span>25,000 RWF</span></p>
+                <p>Price: <span>{price}</span>Rwf</p>
                 <p>Kigoli Rice /25kg</p>
                 <p>Umuceri mwiza uryoshye kandi utubuka</p>
             </div>
             <div className="shopping">
-                <select name="price" id="igiciro">
-                    <option value="">1kg-1,000Rwf</option>
-                    <option value="">5kg-5,000Rwf</option>
-                    <option value="">10kg-10,000Rwf</option>
-                    <option value="">25kg-25,000Rwf</option>
-                </select>
+                <div className="values">
+                   <p>Weigth:<span>{plus}</span>Kg</p>
+                </div>
+                <div className="optionss">
+                    <button onClick={decreament}>-</button>
+                    <button onClick={increament}>+</button>
+                </div>
                 
                 <div className="cart">
                 <button>Add to cart</button>

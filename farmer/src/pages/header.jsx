@@ -19,7 +19,7 @@ import '../sass/pages/header.scss'
             <li><a href="#">impact</a></li>
             <li><a href="/product">product</a></li>
             <li><a href="#">sign up</a></li>
-            <li><a href="#">login</a></li>
+            <li><a href="/login">login</a></li>
         </ul>
     </div>
     </div>
