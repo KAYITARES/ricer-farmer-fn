@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="about">
 
       <div className="heading">
-      <h2>aur cooperative</h2>
+      <h2>Our cooperative</h2>
       </div>
       </div>
   
@@ -16,10 +16,10 @@ const AboutUs = () => {
       <div className="links">
         <h4>ABOUT US</h4>
         <ul>
-            <li><a href="#">our Mession</a></li>
+            <li><a href="#">our Mission</a></li>
             <li><a href="#">aur organisation</a></li>
-            <li><a href="#">Board of derection</a></li>
-            <li><a href="#">Exective Team</a></li>
+            <li><a href="#">Board of direction</a></li>
+            <li><a href="#">Exctive Team</a></li>
             <li><a href="#">Recognitor</a></li>
             <li><a href="#">careers</a></li>
         </ul>
