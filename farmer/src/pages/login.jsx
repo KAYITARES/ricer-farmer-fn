@@ -41,7 +41,7 @@ function Login() {
           <Checkbox>Remember me</Checkbox>
         </Form.Item>
 
-        <a className="login-form-forgot" href="/signup">
+        <a className="login-form-forgot" href="/member">
           Forgot password
         </a>
       </Form.Item>

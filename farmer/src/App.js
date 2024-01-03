@@ -8,14 +8,16 @@ import Login from './pages/login';
 
 
 
+
 function App() {
   return (
 <Router>
   <Routes>
-    <Route path='/' element={<Welcome/>}></Route>
+    <Route path='/welcome' element={<Welcome/>}></Route>
     <Route path='/product' element={<Product/>}></Route>
     <Route path='/Singleproduct' element={<Single/>}></Route>
     <Route path='/login' element={<Login/>}></Route>
+    
    
   </Routes>
 </Router>
