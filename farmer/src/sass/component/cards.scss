@@ -1,7 +1,10 @@
 .card{
-    display: flex;
-   
-        width: 200px;
-        height: 300px;
-        perspective: 1000px;
-      }
+   background-color: rgb(157, 157, 185); 
+   width: 30%;   
+   transition: all 5s;
+
+  }
+.card:hover{
+  transform: rotateY(200deg);
+}
+
