@@ -6,6 +6,7 @@ const Button = () => {
     color: 'white',
     padding: '10px',
     cursor: 'pointer',
+    
   };
 
   const handleClick = () => {
