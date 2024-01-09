@@ -11,10 +11,30 @@ import { LikeOutlined } from '@ant-design/icons';
 import { MessageOutlined } from '@ant-design/icons';
 import { SendOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
-import  { useState } from 'react';
+import  { useState ,useEffect} from 'react';
 import { Button, Modal } from 'antd';
 
 function Single(){
+
+
+    const [messages, setMessages] = useState([]);
+    const [input, setInput] = useState('');
+    const socket = new WebSocket('ws://localhost:3001');
+  
+    useEffect(() => {
+      socket.onmessage = (event) => {
+        setMessages((prevMessages) => [...prevMessages, event.data]);
+      };
+    },[]);
+  
+    const sendMessage = () => {
+      socket.send(input);
+      setInput('');
+    };
+
+
+
+
 
     
         const [isModalOpen, setIsModalOpen] = useState(false);
@@ -51,8 +71,9 @@ function Single(){
 
         const handopen=()=>{
             setisopen(true)
+            
         }
-        const sendopem=()=>{
+        const closeopen=()=>{
             setisopen(false)
         }
 
@@ -89,17 +110,23 @@ function Single(){
         )}
 
         {isopen && (
-            <div className="contact-card">
-            
-                 <h1>Chat with us</h1>
-                  <p> Hi, message us with any questions. We're happy to help!</p>
-                  <textarea name="" id="" cols="" rows="5" placeholder="Message"></textarea>
-
-                  <div className="but">
-                        <button onClick={sendopem}>Cancel</button>
-                        <button type="submit">Send</button>
-                   </div>
-        
+            <div className="app">
+                <h1>Chat to us</h1>
+                <p>If you want help chat to us using to writting your question and send it</p>
+                <div className="message-container">
+            {messages.map((message, index) => (
+              <div key={index}>{message}</div>
+            ))}
+          </div>
+          <div className="input-container">
+            <input
+              type="text"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+            />
+            <button onClick={sendMessage}>Send</button>
+            <button onClick={closeopen}>cancel</button>
+          </div>
             </div>
         )}
 
@@ -117,6 +144,11 @@ function Single(){
            <div className="product">
            <div className="image">
                 <img src={kigoli} alt="" />
+                <div className="favolite">
+                    <li><LikeOutlined /><p>23</p></li>
+                    <li><DislikeOutlined /><p>2</p></li>
+                    <li><CommentOutlined onClick={showcomment}/><p>40</p></li>
+                </div>
             </div>
             <div className="dicrition">
                 <h1>Kigoli:Best rice</h1>
@@ -145,13 +177,9 @@ function Single(){
             
            </div>
            <div className="conact">
-                <div className="favolite">
-                    <li><LikeOutlined /><p>23</p></li>
-                    <li><DislikeOutlined /><p>2</p></li>
-                    <li><CommentOutlined onClick={showcomment}/><p>40</p></li>
-                </div>
+                
                 <div className="watapp">
-                    <button onClick={handopen}> <MessageOutlined />Chat</button>
+                    <button onClick={handopen}> <MessageOutlined onClick={handopen}/>Chat</button>
                 </div>
                 
             </div>
