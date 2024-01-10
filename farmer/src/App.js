@@ -1,5 +1,5 @@
 
-import {BrowserRouter as Router,Routes,Route}from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Welcome from './pages/welcome';
 import Product from './pages/product';
 import Single from './pages/Singleproduct';
@@ -13,6 +13,7 @@ import Login from './pages/login';
 
 function App() {
   return (
+ 
 <Router>
   <Routes>
     <Route path='/welcome' element={<Welcome/>}></Route>
@@ -25,6 +26,8 @@ function App() {
    
   </Routes>
 </Router>
+
+  
   );
 }
 
