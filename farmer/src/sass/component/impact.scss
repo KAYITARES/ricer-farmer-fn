@@ -2,7 +2,7 @@
 
 width: 100%;
 background: linear-gradient(to right,rgb(170, 126, 128),rgb(113, 146, 98),rgb(161, 157, 115));
-height: 100vh;
+height: auto;
 padding:  0.5rem 1.5rem;
 
 
@@ -16,6 +16,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 object-fit:cover;
+padding: 2rem;
 
 }
 .impact h5{
@@ -49,10 +50,24 @@ margin-top: 2rem;
 }
 
 .brac{
-    display: flex;
-justify-content:space-around;
-height: 35vh;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 padding: 4rem;
+}
+@media(max-width:907px){
+    .brac{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+@media(max-width:555px){
+    .brac{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
 }
 
 i{
