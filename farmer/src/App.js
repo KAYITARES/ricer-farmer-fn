@@ -1,21 +1,29 @@
 
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Welcome from './pages/welcome';
-import Contact from './pages/cont';
-import SignUp from './pages/signup';
-import Footer from './component/footer';
-import Logo from './component/logo';
-import "../src/sass/main.scss"
+import Product from './pages/product';
+import Single from './pages/Singleproduct';
+import Login from './pages/login';
+
+
+
+
+
+
+
 function App() {
   return (
  
 <Router>
   <Routes>
-    <Route path='/' element={<Welcome/>}></Route>
-    <Route path='/contact' element={<Contact/>}></Route>
-    <Route path='/signup' element={<SignUp/>}></Route>
-    <Route path='/footer' element={<Footer/>}></Route>
-    <Route path='/logo' element={<Logo/>}></Route>
+    <Route path='/welcome' element={<Welcome/>}></Route>
+    <Route path='/product' element={<Product/>}></Route>
+    <Route path='/Singleproduct' element={<Single/>}></Route>
+    <Route path='/login' element={<Login/>}></Route>
+    
+    
+    
+   
   </Routes>
 </Router>
 
