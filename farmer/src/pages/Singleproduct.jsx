@@ -187,9 +187,9 @@ function Single(){
         </div>
         <div className="nav">
             <li><HomeOutlined /><a href="product">Home</a></li>
-            <li><BarsOutlined /><a href="#">My carts</a></li>
+            <li><BarsOutlined /><a href="/oder">My carts</a></li>
             <li onClick={showModal}><SafetyCertificateOutlined onClick={showModal}/> Shop</li>
-            <li><BarsOutlined /><a href="#">My orders</a></li>
+            <li><BarsOutlined /><a href="/oder">My orders</a></li>
         </div>
         </>
     )

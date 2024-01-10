@@ -9,6 +9,8 @@ import Login from './pages/login';
 
 
 
+
+
 function App() {
   return (
 <Router>
@@ -17,6 +19,8 @@ function App() {
     <Route path='/product' element={<Product/>}></Route>
     <Route path='/Singleproduct' element={<Single/>}></Route>
     <Route path='/login' element={<Login/>}></Route>
+    
+    
     
    
   </Routes>
