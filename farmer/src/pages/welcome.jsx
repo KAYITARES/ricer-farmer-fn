@@ -1,27 +1,13 @@
 import React from "react";
 import '../sass/main.scss';
-import Home from "../component/home";
-
-
-
-
-
-
-
-
-
-
-
+import Impact from "../component/impact";
 
 
 function Welcome(){
 return (
     <>
-   
-   <Home />
-
-
-
+  
+   <Impact/>
 
     </>
     )

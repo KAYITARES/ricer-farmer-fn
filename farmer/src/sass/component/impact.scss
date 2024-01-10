@@ -1,0 +1,72 @@
+.impact-container{
+
+width: 100%;
+background: linear-gradient(to right,rgb(170, 126, 128),rgb(113, 146, 98),rgb(161, 157, 115));
+height: 100vh;
+padding:  0.5rem 1.5rem;
+
+
+
+}
+.impact{
+    background-image: url("https://images.pexels.com/photos/11196890/pexels-photo-11196890.jpeg?auto=compress&cs=tinysrgb&w=600");
+height:auto;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+object-fit:cover;
+
+}
+.impact h5{
+margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 38px;
+    letter-spacing: 1.2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+.grt p{
+    color: rgb(252, 249, 249);
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 4rem;
+}
+.link{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    font-size: 3rem;
+    display: flex;
+    color: #ffffff; 
+    
+}
+
+.brac{
+    display: flex;
+justify-content:space-around;
+height: 35vh;
+padding: 4rem;
+}
+
+i{
+    transition: all 0.2s;
+    cursor: pointer; 
+}
+i:hover{
+    transform: translate Y(-4px, 4px);
+    background-color: red($color: #000000);
+}
+.solve h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+

@@ -5,7 +5,7 @@ function Card(props){
     return(
         <>
         <div className="card">
-            <p>adsfghjkl;jhjgfdsaSDFGHJ</p>
+            <p>{props.name}</p>
         </div>
         </>
     )
