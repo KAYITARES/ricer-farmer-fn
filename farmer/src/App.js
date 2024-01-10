@@ -8,6 +8,10 @@ import SignUp from './pages/signup';
 import "../src/sass/main.scss"
 import Aboutus from './pages/aboutus';
 import Moreabout from './pages/aboutmore';
+import Home from './pages/home';
+import Homemore from './pages/homemore';
+import Footer from './component/footer';
+
 function App() {
   return (
  
@@ -18,6 +22,10 @@ function App() {
     <Route path='/signup' element={<SignUp/>}></Route>
     <Route path='/aboutus' element={<Aboutus/>}></Route>
     <Route path='/moreabout' element={<Moreabout/>}></Route>
+    <Route path='/home' element={<Home/>}></Route>
+    <Route path='/homemore' element={<Homemore/>}></Route>
+    <Route path='/footer' element={<Footer/>}></Route>
+
   </Routes>
 </Router>
 
