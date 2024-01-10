@@ -1,0 +1,302 @@
+.pro-contanner{
+    padding: 5rem 3rem;
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    
+
+    .image{
+        outline: 1px solid red;
+        outline-offset: 2px ;
+        transition:all .3s ;
+        cursor: pointer;
+
+
+         img{
+            // width: 300px;
+            height: 100%;
+         }
+
+
+         &:hover{
+            transform: rotateY(50deg);
+        }
+
+        .favolite{
+            display: flex;
+            align-items:center;
+            list-style: none;
+            gap: 20px; 
+    
+            li{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                gap: 4px; 
+                padding: 9px 11px;
+                border-radius: 3px;
+    
+                p{
+                    font-size: 1rem;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-weight: bold;
+                }
+    
+                &:hover{
+                    background-color: #4da6e2;
+                }
+            }
+        }
+    }
+
+    .dicrition{
+        background-color:rgb(241, 238, 232);
+        padding: 2rem;
+
+        h1{
+            font-size: 2rem;
+            font-weight: 800;
+            border-bottom: 3px solid black;
+            padding-bottom: 1.2rem;
+            
+            
+        }
+        p{
+            font-size: 1rem;
+            padding: 1rem 0rem;
+            text-align: center;
+
+            span{
+                color: red;
+                font-weight: 800;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+
+    }
+
+    .shopping{
+        background-color: rgb(247, 242, 235);
+        padding: 2rem;
+
+        .cart{
+            padding: 2rem;
+            button{
+                width: 100%;
+                background-color: red;
+                padding: 1rem 5rem;
+                transition: all 0.2s;
+                border-radius: 3px;
+
+                &:hover{
+                    color: whitesmoke;
+                    font-size: 1rem;
+                    font-weight: 700;
+                }
+            }
+
+            
+        }
+        .buy{
+            display: flex;
+            justify-content: center;    
+        }
+        .optionss{
+            display: flex;
+            justify-content:space-between;
+            
+            padding: 0rem 2rem;
+            padding-top: 1.5rem;
+            button{
+                padding: 0rem 3rem;
+                font-size: 1.3rem;
+                font-weight: 700;
+            }
+        }
+
+        .values{
+            padding: 0rem 2rem;
+            p{
+                font-size: 1.8rem;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 600;
+
+                span{
+                    color: red
+                }
+            };
+        }
+
+       
+    }
+}
+.conact{
+    display: flex;
+    align-items:center;
+    justify-content:right;
+    padding: 0rem 2rem;
+    text-align: right;
+    gap: 1rem;
+    padding-top: 1rem;
+
+    .watapp{
+
+        button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            font-size: 2rem;
+            font-weight: 800;
+            padding: 5px 15px;
+            border-radius: 9px;
+            color: whitesmoke;
+            background-color: black;
+
+            &:hover{
+                background-color: rgb(27, 25, 25);
+            }
+        }
+    }
+
+    
+}
+}
+
+.nav{
+    background-color: #197dc0;
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    z-index: 9999;
+    padding: 2rem;
+    list-style: none;
+
+    li{
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+    }
+}
+form{
+    padding: 2rem;
+
+    input{
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 2px 4px;
+        border-radius: 2px;
+    }
+}
+
+.comment{
+    background-color: rgb(173, 175, 175);
+    width: 350px;
+    padding: 2rem;
+    position: absolute;
+    left: 35%;
+    top: 8rem;
+    border-radius: 10px;
+
+    .onecomment{
+
+        background-color: whitesmoke;
+        border-radius: 5px;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1,1fr;
+        gap: 1.3rem;
+
+        h1{
+            font-size: 1.2rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+
+        p{
+            font-size: 0.8rem;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0.2rem 0rem;
+        }
+
+        .likee{
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            gap: 15px;
+
+            li{
+                font-family: 'Courier New', Courier, monospace; 
+                font-weight: bold;
+            }
+        }
+    }
+    .bach{
+        display: flex;
+        align-items:center;
+        justify-content: right;
+        padding-bottom: 1rem;
+        
+    }
+
+    .sentcomment{
+        padding: 2rem 0rem;
+
+        textarea{
+            width: 100%;
+        }
+        .icon{
+           position: absolute;
+           left: 82%; 
+           font-size: 1.6rem;
+           margin-top: 5px;
+        }
+    }
+}
+
+    .app{
+        background-color: rgb(8, 8, 8);
+        border-radius: 3px;
+        width: 270px;
+        position: absolute;
+        left: 80%;
+        top: 35%;
+        z-index: 9999;
+        padding: 2rem;
+
+        h1{
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2rem;
+            padding-bottom: 1rem;
+        }
+        p{
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+            padding-bottom: 1rem; 
+        }
+        input{
+            width: 100%;
+            padding: 3px;
+        }
+        button{
+            padding: 4px 15px;
+            margin: 5px;
+        }
+
+      
+    }
+
+
+    
