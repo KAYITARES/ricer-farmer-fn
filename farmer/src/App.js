@@ -1,7 +1,6 @@
 
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import Welcome from './pages/welcome';
-<<<<<<< HEAD
 import Contact from './pages/cont';
 import SignUp from './pages/signup';
 // import Footer from './component/footer';
@@ -12,7 +11,6 @@ import Moreabout from './pages/aboutmore';
 import Home from './pages/home';
 import Homemore from './pages/homemore';
 import Footer from './component/footer';
-=======
 import Product from './pages/product';
 import Single from './pages/Singleproduct';
 import Login from './pages/login';
@@ -22,7 +20,6 @@ import Login from './pages/login';
 
 
 
->>>>>>> main
 
 function App() {
   return (

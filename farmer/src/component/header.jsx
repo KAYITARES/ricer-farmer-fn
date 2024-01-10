@@ -2,9 +2,7 @@ import React from "react";
 import logo from "../assets/image/logo.png";
 
 import MenuIcon from '@mui/icons-material/Menu';
-
-
- function Navbar(){
+function Navbar(){
     return(
 <>
 <div className="nav-cont">
