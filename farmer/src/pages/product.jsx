@@ -1,5 +1,6 @@
 import Navbar from "./header"
 import Cards from "../component/cards"
+import  Footer  from "../component/footer"
 
 function Product(){
 
@@ -12,8 +13,9 @@ function Product(){
             <div className="different-card">
             <Cards/>
             </div>
-
            </div>
+           <Footer/>
+          
         </>
     )
 }

@@ -13,6 +13,7 @@ import { SendOutlined } from '@ant-design/icons';
 import { CloseOutlined } from '@ant-design/icons';
 import  { useState ,useEffect} from 'react';
 import { Button, Modal } from 'antd';
+import Footer from "../component/footer"
 
 function Single(){
 
@@ -185,12 +186,14 @@ function Single(){
             </div>
            
         </div>
+        <Footer/>
         <div className="nav">
             <li><HomeOutlined /><a href="product">Home</a></li>
             <li><BarsOutlined /><a href="/oder">My carts</a></li>
             <li onClick={showModal}><SafetyCertificateOutlined onClick={showModal}/> Shop</li>
             <li><BarsOutlined /><a href="/oder">My orders</a></li>
         </div>
+        
         </>
     )
 }

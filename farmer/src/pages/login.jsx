@@ -2,6 +2,7 @@ import React from 'react';
 import { LockOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input } from 'antd';
 import Navbar from './header';
+import Footer from "../component/footer"
 
 function Login() {
   // const onFinish = (values: any) => {
@@ -54,6 +55,7 @@ function Login() {
       </Form.Item>
     </Form>
       </div>
+      <Footer/>
         
     </>
   );
