@@ -48,6 +48,8 @@ function Footer(){
            </div>
         </div>
         <hr />
+
+        
         <div className="bottom">
           <div className="coppy">
            <h6> &copy; 2023 coppyright rwangingo rice farmer.com</h6>
