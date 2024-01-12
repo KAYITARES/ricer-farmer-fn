@@ -14,13 +14,13 @@ import Footer from './component/footer';
 import Product from './pages/product';
 import Single from './pages/Singleproduct';
 import Login from './pages/login';
-
-
-
-
-
-
-
+import Impact from './pages/impact';
+import Kuvuruga from './pages/kuvuruga';
+import Guteraa from './pages/guteraa';
+import Kubagara from './pages/kubagara';
+import Weze from './pages/weze';
+import Kwanika from './pages/kwanika';
+import Kubika from './pages/kubika';
 function App() {
   return (
  
@@ -38,9 +38,13 @@ function App() {
     <Route path='/product' element={<Product/>}></Route>
     <Route path='/Singleproduct' element={<Single/>}></Route>
     <Route path='/login' element={<Login/>}></Route>
-    
-    
-    
+    <Route path='/impact' element={<Impact/>}></Route>
+    <Route path='/kuvuruga' element={<Kuvuruga/>}></Route>
+    <Route path='/gutera' element={<Guteraa/>}></Route>
+    <Route path='/kubagara' element={<Kubagara/>}></Route>
+    <Route path='/weze' element={<Weze/>}></Route>
+    <Route path='/kwanika' element={<Kwanika/>}></Route>
+    <Route path='/kubika' element={<Kubika/>}></Route>
    
   </Routes>
 </Router>

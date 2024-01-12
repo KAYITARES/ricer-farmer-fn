@@ -1,13 +1,13 @@
 
 .sig-cont{
     background-color: rgb(208, 208, 255);
-    height: 100vh;
+    height: 180vh;
     form{
         background-color: rgba(123, 145, 223, 0.624);
       
         border-radius: 1rem;
      text-align: center;
-  height: 85vh;
+  height: 150vh;
   width: 40%;
   padding: 1.8rem;
     margin-left: 30%;
@@ -159,5 +159,8 @@ color: white;
         font-size: 10%;
     }
 }
-hr{
+label{
+    margin-right: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
