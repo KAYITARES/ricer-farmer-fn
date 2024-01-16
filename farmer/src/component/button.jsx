@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-
+import React from 'react';
 
 const Button = () => {
-    
-    const [buttonText, setButtonText] = useState('View more');
-  
-    
-    const handleClick = () => {
-      setButtonText('View more');
-      
-    };
-  
-    return (
-      <button style={{width:'200px',height:'80px', }}onClick={handleClick}>
-        {buttonText}
-      </button>
-    );
+  const buttonStyle = {
+    backgroundColor: 'blue',
+    color: 'white',
+    padding: '10px',
+    cursor: 'pointer',
   };
-  
 
-export default Button
+  const handleClick = () => {
+
+  };
+
+  return (
+    <button style={buttonStyle} onClick={handleClick}>
+      View more
+    </button>
+  );
+}
+
+export default Button;

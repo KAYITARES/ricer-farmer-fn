@@ -2,37 +2,53 @@
 
 =======
 .about-us-contaner{
-background-color: rgb(155, 179, 189);
+background: linear-gradient(to bottom,rgba(211, 195, 195, 0.877),rgba(185, 185, 141, 0.952),rgba(80, 80, 133, 0.89));
 width: 100%;
 padding: 3rem;
+
 }
-.about{
-    align-items: center;
-    height: 100%;
-    text-align: center;
-    justify-content: center;
+
+ .prat {
+    
+    color: rgb(255, 255, 255);
+    font-size: 3px;
+    width: 500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding:10px;
+    margin-top: 6px;
+    
 }
-.about h1{
+.form h1{
+   
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 3rem;
-    font-size: 35px;
-    letter-spacing: 1.2px;
-    text-shadow: 1px 3px 3px grey;
+    font-size: 30px;
+    color: rgba(110, 53, 163, 0.938);
+ 
 }
-
-
 
 .form{
-background-color: rgb(138, 120, 120);
-padding-left: 10rem;
-padding-right: 10rem;
-padding-top: 3rem;
-height: 600px;
+background-color: rgb(252, 251, 251);
+padding-left: 2rem;
+padding-right: 5rem;
+padding-top: 2rem;
+height: 500px;
+position: sticky;
+
 }
 .form p{
-    color: rgb(253, 250, 250);
-    font-size: 20px;
+    color: rgb(8, 8, 8);
+    font-size: 15px;
 }
-.card{
-    text-align: center;
-}
+<<<<<<< HEAD
 >>>>>>> 26833a0 (add)
+=======
+// button{
+//     width: 90px;
+//     height: 40px;
+//     margin-top: 20px;
+//     padding-right: 3%;
+// }
+
+
+>>>>>>> 90fa4e7 (add)

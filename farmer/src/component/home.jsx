@@ -30,6 +30,7 @@ import Button from './button';
 
 
 
+
 const Home = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [im1,im2,im3];

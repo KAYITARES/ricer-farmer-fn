@@ -8,6 +8,16 @@ import About from "../component/aboutus"
 import Card from "../component/card"
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+>>>>>>> 90fa4e7 (add)
 function Welcome(){
 return (
     <>
@@ -18,6 +28,7 @@ return (
    <Home />
 <About/>
 <Card/>
+
     </>
     )
     }
