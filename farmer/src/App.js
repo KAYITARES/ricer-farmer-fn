@@ -16,7 +16,9 @@ import Homemore from './pages/homemore';
 =======
 import {BrowserRouter as Router,Routes,Route}from 'react-router-dom'
 import Welcome from './pages/welcome';
-import Products from './pages/product';
+import Product from './pages/product';
+import Single from './pages/Singleproduct';
+
 
 
 
@@ -29,6 +31,7 @@ function App() {
         <Route path="/HOME" element={<Home/>}></Route>
     <Route path='/' element={<Welcome/>}></Route>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Route path='/contact' element={<Contact/>}></Route>
     <Route path='/signup' element={<SignUp/>}></Route>
     <Route path='/aboutus' element={<Aboutus/>}></Route>
@@ -40,6 +43,11 @@ function App() {
 =======
     <Route path='product' element={<Products/>}></Route>
 >>>>>>> 7db8983 (product)
+=======
+    <Route path='/product' element={<Product/>}></Route>
+    <Route path='/Singleproduct' element={<Single/>}></Route>
+   
+>>>>>>> f507938 (product)
   </Routes>
 </Router>
 
