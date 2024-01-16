@@ -20,4 +20,27 @@
             padding-bottom: 1rem;
          }
     }
+    @media(max-width:867px){
+        .login-form{
+            left: 20%;
+        }
+    }
+    @media(max-width:609px){
+        .login-form{
+            left: 10%;
+        }
+    }
+    @media(max-width:502px){
+        .login-form{
+            
+            left: 10%;
+            width: 70%;
+            
+        }
+    }
+}
+@media(max-width:502px){
+    .login-contain{
+        padding: 2rem;
+    }
 }

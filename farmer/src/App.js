@@ -15,6 +15,8 @@ import Login from './pages/login';
 import Products from "./pages/product";
 
 
+
+
 function App() {
   return (
     <Router>
@@ -36,7 +38,13 @@ function App() {
     <Route path='/Singleproduct' element={<Single/>}></Route>
     <Route path='/login' element={<Login/>}></Route>
     
+<<<<<<< HEAD
   
+=======
+    
+    
+   
+>>>>>>> 5d54528 (allfile)
   </Routes>
 </Router>
 
