@@ -1,10 +1,15 @@
 import React from "react";
+<<<<<<< HEAD
 import Card from "../component/card"
+=======
+import Button from "../component/button"
+>>>>>>> 8dd519c (add)
 
 const impact=()=>{
 return(
   <div className="impact-container">
     <div className="impact">
+<<<<<<< HEAD
     <h5>Rwangingo Rice Farmer Impact</h5>
         <div/>
      
@@ -28,6 +33,14 @@ return(
     <i class='bx bxl-twitter'></i>
     <i class='bx bxl-instagram'></i>
     <i class='bx bx-message-rounded-check'></i>
+=======
+        <h5>Your Impact</h5>
+        <p>
+ control or guarding of the rice crop became a political function,
+ confirming the importance of rice in society</p>
+ 
+<Button/>
+>>>>>>> 8dd519c (add)
     </div>
   </div>
 )
