@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 import React from "react";
-<<<<<<< HEAD
+
 const Home = () => {
     return (
         <div className="home-container">
@@ -19,58 +19,6 @@ Whether rice is part of your most treasured family traditions or is simply one o
 </div>
             </div>
         </div>
-    );
-=======
-import React, { useState, useEffect } from 'react';
-import '../sass/component/home.scss';
-import im1 from '../assets/Bg-color.jpg';
-import im2 from '../assets/1290x0.webp';
-import im3 from '../assets/Scope-and-Importance-of-Rice..jpg';
-import Button from './button';
-
-
-
-
-const Home = () => {
-  const [currentImage, setCurrentImage] = useState(0);
-  const images = [im1,im2,im3];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 5000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-
-  return (
-    <div className="sliding-background" style={{ backgroundImage: `url(${images[currentImage]})` }}>
-      <div className="home-container">
-        <div className="heading">
-          <h1 style={{ color: 'white' }}>COOPERATIVE OF RWANGINGO RICE FARMERS</h1>
-        <Button/>
-                </div>
-      </div>
-    </div>
-  );
->>>>>>> 26833a0 (add)
-};
-=======
-
-<<<<<<< HEAD
-const Home=()=>{
-    return(
-
-        <div className="home-container">
-<div className="heading">
-    <h1>COOPERATIVE OF RWANGINGO RICE FARMERS</h1>
-</div>
-        </div>
     )
-}
->>>>>>> d45b87d (add)
-export default Home
-=======
-export default Home;
->>>>>>> 26833a0 (add)
+    };
+   export default Home;
