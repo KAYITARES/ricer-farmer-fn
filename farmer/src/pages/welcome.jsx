@@ -1,8 +1,8 @@
 import React from "react";
 import '../sass/main.scss';
 import Impact from "../component/impact";
-import '../sass/main.scss'
 import Navbar from "../component/header";
+import Footer from "../component/footer";
 
 
 
@@ -14,7 +14,7 @@ return (
 
     
     <Navbar/>
-  
+  <Footer/>
   
     </>
     )

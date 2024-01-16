@@ -1,10 +1,10 @@
 import React from "react";
-import Footer from "../component/footer";
 import Navbar from "../component/header";
+import Footer from "../component/footer";
 function SignUp(){
     return(
         <>
-        <Navbar/>
+<Navbar/>
         <div className="sig-cont">
             <div className="headerr">
                 <h1>registration form</h1>
@@ -28,7 +28,7 @@ function SignUp(){
     <input type="password" className="confirm" placeholder="confirm your password"/><br /><br />
     <button type="submit" className="btin">send</button>
 {/* </fieldset> */}
-<h3>Alread have an account?<a href="#" className="HEY"><u>Login here</u></a></h3>
+<h3>Alread have an account?<a href="/sign" className="HEY"><u>Login here</u></a></h3>
 <h6>copyright &copy; rwangingo rice farmers 2023</h6>
  </form>
             </div>
