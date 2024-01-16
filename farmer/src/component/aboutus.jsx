@@ -1,5 +1,7 @@
 
 import React from 'react';
+import Card from '../component/card'
+
 
 const AboutUs = () => {
   return (
@@ -30,6 +32,13 @@ const AboutUs = () => {
         <p>CDAIS came just at the right time”, explains Damien Maniriho, manager of 
           the local Rural Service Support Programmer“We had just finished rehabilitation 
           of the Rwangingo marshlands</p>
+          <div className="card-cont">
+        
+          <Card/>
+          <Card/>
+          <Card/>
+          </div>
+
       </div>
       </div>
     </div>

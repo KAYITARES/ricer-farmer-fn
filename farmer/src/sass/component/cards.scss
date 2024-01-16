@@ -82,10 +82,26 @@
 }
 
 .card{
+<<<<<<< HEAD
     display: flex;
    
         width: 200px;
         height: 300px;
         perspective: 1000px;
       }
+<<<<<<< HEAD
 
+=======
+>>>>>>> fa1db58 (add)
+=======
+   background-color: rgb(157, 157, 185); 
+   width: 30%;   
+   transition: all 5s;
+
+  }
+.card:hover{
+  transform: rotateY(200deg);
+}
+
+>>>>>>> f204343 (add)
+>>>>>>> 9fc3b3b (add)

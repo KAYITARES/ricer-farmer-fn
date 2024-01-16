@@ -1,12 +1,20 @@
 import React from "react";
-const Card = (props) => {
-    console.log(props);
-    return (
-        <div className="card-container">
-            <img src={props.photo} alt="" />
-            <h3>{props.name}</h3>
-           
+
+
+function Card(props){
+    return(
+        <>
+        <div className="card">
+            <p>adsfghjkl;jhjgfdsaSDFGHJ</p>
         </div>
+<<<<<<< HEAD
     );
 };
 export default Card;
+=======
+        </>
+    )
+}
+
+export default Card
+>>>>>>> 9fc3b3b (add)

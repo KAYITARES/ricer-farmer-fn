@@ -13,10 +13,18 @@
     "devtools": "^8.27.0",
     "material": "^0.7.9",
     "@ant-design/icons": "^5.2.6",
+<<<<<<< HEAD
     "@mui/icons-material": "^5.15.1",
     "@mui/styled-engine-sc": "^6.0.0-alpha.9",
+=======
+    "@mui/styled-engine-sc": "^6.0.0-alpha.9",
+    "@fontsource/roboto": "^5.0.8",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@mui/icons-material": "^5.15.2",
+>>>>>>> 9fc3b3b (add)
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
     "sass": "^1.69.5",
@@ -24,8 +32,14 @@
     "web-vitals": "^2.1.4",
     "websocket": "^1.0.34",
     "whatsapp-web.js": "^1.23.0",
+<<<<<<< HEAD
     "styled-components": "^6.1.2"
    
+=======
+    "styled-components": "^6.1.2",
+    "save": "^2.9.0",
+    "slick-carousel": "^1.8.1",
+>>>>>>> 9fc3b3b (add)
   },
   "scripts": {
     "start": "react-scripts start",

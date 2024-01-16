@@ -12,9 +12,9 @@ padding: 3rem;
  .prat {
 =======
 .about-comtainer{
-    padding: 0rem 3rem ;
+    
  width: 100%;
-  height: 400px;
+
   }
   .heading {
     align-items: center;
@@ -22,15 +22,21 @@ padding: 3rem;
     text-align: center;
     justify-content: center;
   }
-  .heading h1 {
+  .heading h2 {
     padding: 5rem;
     font-size: 40px;
     letter-spacing: 1.2px;
+<<<<<<< HEAD
 >>>>>>> 7ea90ff (add)
     
+=======
+    text-shadow: 1px 3px 3px grey;
+    color: blanchedalmond;
+>>>>>>> 9fc3b3b (add)
   }
   .aboutuse{
     display: flex;
+    background: linear-gradient(to right,rgba(231, 171, 175, 0.952),rgba(238, 241, 241, 0.945),rgb(53, 156, 87));
   }
   .about{
     background-image: url(https://cdn.pixabay.com/photo/2018/04/07/13/13/handshake-3298455_640.jpg);
@@ -85,14 +91,22 @@ a{
   align-items: center;
   font-size: 1.5rm;
 }
-.pragrap p {
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  font-size: 1.5rem;
-  margin-top: 10rem;
-  color: rgb(34, 22, 7);
-
+.pragrap {
+  p {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    color: rgb(13, 13, 14);
+  
+  }
+  .card-cont{
+    display: flex;
+    justify-content: space-around;
+  
+    
+  }
 }
 
 <<<<<<< HEAD
