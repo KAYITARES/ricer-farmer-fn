@@ -1,12 +1,16 @@
 import React from "react";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import '../sass/main.scss';
 import Impact from "../component/impact";
 import Navbar from "../component/header";
 // import Footer from "../component/footer";
 =======
 import '../sass/main.scss'
+=======
+import '../sass/main.scss';
+>>>>>>> 6a24abf (add)
 import Navbar from "../component/header";
 <<<<<<< HEAD
 // import Footer from "../component/footer";
