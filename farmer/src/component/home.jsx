@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 const Home = () => {
     return (
         <div className="home-container">
@@ -19,4 +20,17 @@ Whether rice is part of your most treasured family traditions or is simply one o
         </div>
     );
 };
+=======
+
+const Home=()=>{
+    return(
+
+        <div className="home-container">
+<div className="heading">
+    <h1>COOPERATIVE OF RWANGINGO RICE FARMERS</h1>
+</div>
+        </div>
+    )
+}
+>>>>>>> d45b87d (add)
 export default Home

@@ -14,6 +14,7 @@
 
 
 @import "component/home.scss";
+<<<<<<< HEAD
 @import "component/impact.scss";
 @import "component/cards.scss";
 
@@ -26,6 +27,16 @@
 >>>>>>> 2cf3e9f (gytwf)
 @import "pages/header.scss";
 <<<<<<< HEAD
+=======
+@import "pages/header.scss";
+@import "pages/Singleproduct.scss";
+@import "pages/product.scss";
+@import "pages/login.scss";
+
+
+
+
+>>>>>>> d45b87d (add)
 @import "pages/cont.scss";
 @import "pages/sign.scss";
 @import "component/footer.scss";
@@ -57,4 +68,27 @@
 @import "pages/kubagara.scss";
 @import "pages/gutera.scss";
 @import "pages/kuvuruga.scss";
+<<<<<<< HEAD
 >>>>>>> 039bc94 (hell)
+=======
+@import "abstract/extends.scss";
+@import "abstract/function.scss";
+@import "abstract/mixins.scss";
+@import "abstract/variable.scss";
+
+@import "base/animation.scss";
+@import "base/base.scss";
+@import "base/typography.scss";
+@import "base/utilities.scss";
+
+
+@import "component/button.scss";
+@import "component/cards.scss";
+
+
+@import "layout/footer.scss";
+@import "layout/header.scss";
+
+
+
+>>>>>>> d45b87d (add)

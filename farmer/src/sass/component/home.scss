@@ -1,14 +1,23 @@
 
    
 .home-container {
+<<<<<<< HEAD
   width: 100%;
   height: auto;
   padding:  0.5rem 1.5rem;
    
+=======
+    width: 100%;
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> d45b87d (add)
   
   }
   
   .heading {
+<<<<<<< HEAD
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mzM4bSevEVt6aFd2oaajugjMFxr0Uas93w&usqp=CAU);
     height:auto;
     width: 100%;
@@ -25,10 +34,22 @@
     align-items: center;
     margin-top: 10rem;
     color: rgb(245, 240, 240);
+=======
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .heading h1 {
+    margin-top: 10rem;
+    color: white;
+>>>>>>> d45b87d (add)
     font-size: 48px;
     letter-spacing: 1.2px;
     text-shadow: 1px 3px 3px grey;
   }
+<<<<<<< HEAD
   .pragrap{
     display: flex;
     justify-content: space-around;
@@ -48,3 +69,34 @@
    
 
   
+=======
+
+  .pragr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pragr p{
+    margin-top: 2rem;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 3px 3px grey;
+    text-align: center;
+  }
+  .btn{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  button{
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-transform: scale(0,0,0,0.5);
+    transform: scale(1.1);
+    width: 100px;
+  }
+>>>>>>> d45b87d (add)

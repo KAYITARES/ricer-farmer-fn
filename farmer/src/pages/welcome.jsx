@@ -7,10 +7,8 @@ import Navbar from "../component/header";
 // import Footer from "../component/footer";
 =======
 import '../sass/main.scss'
-// import Navbar from "./header";
-
-
 import Navbar from "../component/header";
+<<<<<<< HEAD
 // import Footer from "../component/footer";
 // import Footer from "../component/footer";
 >>>>>>> 3d4635f (bfgd)
@@ -19,6 +17,9 @@ import Navbar from "../component/header";
 import '../sass/main.scss'
 import Navbar from "./header";
 >>>>>>> 209cdc6 (as)
+=======
+import Home from "../component/home";
+>>>>>>> d45b87d (add)
 
 
 function Welcome(){
@@ -31,6 +32,7 @@ return (
     <Navbar/>
   
   
+   <Home/>
     </>
     )
     }
