@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 <<<<<<< HEAD
 import Card from "../component/card"
@@ -46,3 +47,5 @@ return(
 )
 }
 export default impact;
+=======
+>>>>>>> 066db33 (add)

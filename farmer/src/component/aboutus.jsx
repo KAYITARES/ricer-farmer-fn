@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 import React from 'react';
 import Card from '../component/card'
 
@@ -46,3 +47,5 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+=======
+>>>>>>> 066db33 (add)
