@@ -9,11 +9,11 @@ export default function Contact(){
  <h2>Contact Us</h2>
 <div className="fom-conto">
  <div className="par">
-{/* <p>Hello every one, we are <span>Rwangingo Rice Farmers</span>
-We are so happy because our cooperative its works in 
-coperation and we work hard,
-So if you want to sends us your message and you can 
-advice us please fill this form </p> */}
+<p>Hello every one, we are <span>Rwangingo Rice Farmers</span> 
+ <br /><br />We  are so happy because our cooperative <br /><br />its works in 
+coperation and we work hard,<br /><br />
+So if you want to sends us your message and you can <br /><br />
+advice us please fill this form </p>
 
 </div>
  
@@ -44,7 +44,8 @@ advice us please fill this form </p> */}
 <label htmlFor="">Message:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;
 
-<textarea id="longText" name="longText" rows="2" cols="30"></textarea>
+<textarea id="longText" name="longText" rows="2" cols="30"></textarea><br /><br />
+<button type="submit" className="btn">Send</button>
 </div>
 </div>
         </form>

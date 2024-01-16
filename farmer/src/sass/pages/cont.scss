@@ -1,6 +1,6 @@
 .contact-cont{
-    height: 50vh;
-    background-color: #0968a7aa;
+    height: 55vh;
+    background-color: #0968a7df;
     margin-top: .2rem;
 }
 .containes{
@@ -9,16 +9,18 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 2rem;
+    margin-right: 2rem;
+    width:100%;
+    
 }
 .lgd{
    
-    margin: .5rem;
+    // margin: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 7rem;
-    color: #0968a7e6;
+    color: rgba(255, 255, 255, 0.777)
     
 }
 .field{
@@ -27,7 +29,7 @@
 }
 .l1{
     margin: .6rem;
-    color: rgba(255, 255, 255, 0.914);
+    color: rgba(255, 255, 255, 0.77);
     font-size: large;
     letter-spacing: .1rem;
     input{
@@ -40,7 +42,7 @@
 }
 .l2{
     margin: .6rem;
-    color: rgba(255, 255, 255, 0.914);
+    color: rgba(255, 255, 255, 0.805);
     font-size: large;
     letter-spacing: .1rem;
     input{
@@ -54,7 +56,7 @@
 
 .l3{
     margin: .6rem;
-    color: rgba(255, 255, 255, 0.914);
+    color: rgba(255, 255, 255, 0.755);
     font-size: large;
     letter-spacing: .1rem;
     input{
@@ -68,7 +70,7 @@
 
 .l4{
     margin: .6rem;
-    color: rgba(255, 255, 255, 0.914);
+    color: rgba(255, 255, 255, 0.779);
     font-size: large;
     letter-spacing: .1rem;
     textarea{
@@ -81,4 +83,32 @@
 h2{
     color: rgba(255, 255, 255, 0.789);
     padding: 1rem;
+}
+.fom-conto{
+  
+    display: flex;
+    justify-content: space-between;
+}
+.par{
+   
+    
+    p{
+        font-size: 1rem;
+        padding: 1rem;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.882);
+        padding-right: 8rem;
+        
+    }
+}
+.btn{
+    width: 17.8rem;
+        height: 1.8rem;
+        border: none;
+        border-radius: 5rem;
+        width: 100%;
+     background-color: rgba(128, 128, 128, 0.727);
+        font-size: 1rem;
+        color: white;
+        font-weight: 400;
 }
