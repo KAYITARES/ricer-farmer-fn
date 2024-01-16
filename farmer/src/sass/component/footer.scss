@@ -1,0 +1,82 @@
+.foote-container{
+    background-color: rgba(45, 45, 65, 0.863);
+    height: 50vh;
+    
+    p{
+        font-size: .8rem;
+        color: rgba(255, 255, 255, 0.94);
+        padding: .3rem;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+    }
+    h3{
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1rem;
+        padding: .3rem;
+        font-family: 'Times New Roman', Times, serif;
+       
+    }
+    .fooerr{
+        display: flex;
+        justify-content: space-between;
+       padding: .8rem;
+       gap: 1rem;
+       margin: 0% 10% 10% 5%;
+    
+    }
+    li{
+        list-style-type: none;
+        color: rgba(255, 255, 255, 0.851);
+        text-transform: capitalize;
+        padding: .3rem;
+        font-size: 12px;
+    }
+  i{
+color: rgba(255, 255, 255, 0.842);
+padding: .3rem;
+   }
+   span{
+    font-size: .8rem;
+   }
+   hr{
+    margin-top: 7%;
+    color: rgba(45, 45, 65, 0.863);
+   }
+
+   .bottom{
+    display: flex;
+   justify-content: space-between;
+   padding: .8rem;
+   align-items: center;
+  font-size: 90%;
+//   margin-top: 3.7%;
+   }
+   
+   h6{
+    color: rgba(255, 255, 255, 0.896);
+    font-family: 'Times New Roman', Times, serif;
+   margin-left: 50px;
+   }
+   .bxl-facebook{
+   background-color: rgba(45, 45, 65, 0.863);
+   border-radius: 50%;
+   box-shadow: 1px 1px rgba(45, 45, 65, 0.947);
+   }
+   .bxl-google-plus{
+    background-color: rgba(45, 45, 65, 0.863);
+    border-radius: 50%;
+    box-shadow: 1px 1px rgba(45, 45, 65, 0.947);
+   }
+   .bxl-linkedin{
+    background-color: rgba(45, 45, 65, 0.863);
+    border-radius: 50%;
+    box-shadow: 1px 1px rgba(45, 45, 65, 0.947);
+   }
+   .cont{
+    display: flex;
+    gap: 10%;
+    margin-right: 2%;
+   }
+}

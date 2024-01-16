@@ -7,8 +7,12 @@
 }
 .nav-cont{
     background-color: #0967A7;
-    box-shadow: .2rem .3rem .2rem grey;
+    box-shadow: .2rem .2rem .2rem grey;
   height: 4.8rem;
+  position: sticky;
+  top: 0%;
+  margin: 0%;
+  z-index: 9999;
     .container{
         display: flex;
         justify-content: space-between;
@@ -40,22 +44,39 @@ margin-top: 1.7rem;
             list-style-type: none;
             align-items: center;
             text-transform: capitalize;
-            
+             
         }
         a{
             text-decoration: none;
            font-size: 1.2rem;
              color: rgba(255, 255, 255, 0.778);
              padding: .7rem;
-              
+         transition: all .5s;
              &:hover,
-             &:visited{
+             &:active{
             transform: rotate(2deg);
-            transition: all(7s);
-                text-shadow: .1rem .1rem grey;
+            transition: all(1s);
                 background-color: rgba(255, 255, 255, 0.826);
                 border-radius: .5rem;
+                color: rgba(0, 0, 0, 0.857);
                 }
+        }
+     
+    
+    }
+    @media screen and (max-width:777px) {
+        .links{
+            display: none;
+           
+        }
+       
+    }
+    .menu-icon{
+        display: none;
+    }
+    @media screen and (max-width:776px) {
+        .menu-icon{
+            display: block;
         }
     }
 }
@@ -63,6 +84,7 @@ margin-top: 1.7rem;
 //    background-color: blue;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
+<<<<<<< HEAD
 @media(max-width:666px){
     .nav-cont{
        width:100%;
@@ -96,3 +118,12 @@ margin-bottom: .6rem;
        }
     }
 }
+=======
+.menu-icon{
+//   background-color: red;
+  .icon{
+    font-size: 5rem;
+    margin-right: 3rem;
+  }
+}
+>>>>>>> 2ab43fc (add footer)
