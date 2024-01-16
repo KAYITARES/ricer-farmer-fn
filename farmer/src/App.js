@@ -1,3 +1,4 @@
+
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./component/home"
@@ -22,6 +23,10 @@ import Kubagara from './pages/kubagara';
 import Weze from './pages/weze';
 import Kwanika from './pages/kwanika';
 import Kubika from './pages/kubika';
+
+
+
+
 function App() {
   return (
     <Router>

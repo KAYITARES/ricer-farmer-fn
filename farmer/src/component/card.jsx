@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 
 const Card=(props)=>{
    
@@ -14,3 +15,16 @@ return(
 }
 
 export default Card
+=======
+const Card = (props) => {
+    console.log(props);
+    return (
+        <div className="card-container">
+            <img src={props.photo} alt="" />
+            <h3>{props.name}</h3>
+           
+        </div>
+    );
+};
+export default Card;
+>>>>>>> 26833a0 (add)
