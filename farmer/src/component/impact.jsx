@@ -18,7 +18,7 @@ return(
  
     </div>
     <div className="brac">
-    <Card name="It is becoming more difficult for farmers to farm because the fertility of the soil is getting depleted. There are many factors that affect soil fertility, including soil. "/>
+    <a href="/HOME"><Card name="It is becoming more difficult for farmers to farm because the fertility of the soil is getting depleted. There are many factors that affect soil fertility, including soil. "/></a>
     <Card name="Rice cultivation is sensitive to changes in temperature and precipitation, and farmers may struggle to adapt to a changing climate."/>
     <Card name="Rice cultivation requires large amounts of water, and farmers in drought-prone areas can struggle to secure enough water for their crops"/>
     </div>

@@ -1,0 +1,50 @@
+
+   
+.home-container {
+  width: 100%;
+  height: auto;
+  padding:  0.5rem 1.5rem;
+   
+  
+  }
+  
+  .heading {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mzM4bSevEVt6aFd2oaajugjMFxr0Uas93w&usqp=CAU);
+    height:auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit:cover;
+    padding: 2rem;
+  }
+
+  .heading h1 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 10rem;
+    color: rgb(245, 240, 240);
+    font-size: 48px;
+    letter-spacing: 1.2px;
+    text-shadow: 1px 3px 3px grey;
+  }
+  .pragrap{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .pragrap p{
+    font-size: 1.5rem;
+    color: black;
+    
+  }
+  .drag p{
+    font-size: 2rem;
+  color: black;
+  }
+
+  
+   
+
+  
