@@ -1,8 +1,11 @@
+
 import React from "react";
 import logo from "../assets/image/logo.png";
-
+import '../sass/pages/header.scss';
 import MenuIcon from '@mui/icons-material/Menu';
-function Navbar(){
+import Footer from "../component/footer";
+
+ function Navbar(){
     return(
 <>
 <div className="nav-cont">
@@ -13,13 +16,13 @@ function Navbar(){
     </div>
     
         <ul className="links">
-            <li><a href="/home">home</a></li>
-            <li><a href="/aboutus">aboutUs</a></li>
+            <li><a href="#">home</a></li>
+            <li><a href="#">who we are</a></li>
             <li><a href="/contact">contact us</a></li>
-            <li><a href="/impact">impact</a></li>
-            <li><a href="/product">product</a></li>
+            <li><a href="#">impact</a></li>
+            <li><a href="#">product</a></li>
             <li><a href="/signup">sign up</a></li>
-            <li><a href="/login">login</a></li>
+            <li><a href="#">login</a></li>
        
         </ul>
         <div className="menu-icon">
@@ -28,10 +31,11 @@ function Navbar(){
    
     </div>
 </div>
-
+<Footer/>
 </>
 
     )
 
 }
-export default Navbar;
+export default Navbar
+
