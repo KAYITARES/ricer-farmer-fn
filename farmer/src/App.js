@@ -12,6 +12,15 @@ import Moreabout from './pages/aboutmore';
 import Homemore from './pages/homemore';
 
 
+<<<<<<< HEAD
+=======
+import {BrowserRouter as Router,Routes,Route}from 'react-router-dom'
+import Welcome from './pages/welcome';
+import Products from './pages/product';
+
+
+
+>>>>>>> 7db8983 (product)
 function App() {
   return (
     <Router>
@@ -19,6 +28,7 @@ function App() {
         <Route path="/" element={<Welcome />}></Route>
         <Route path="/HOME" element={<Home/>}></Route>
     <Route path='/' element={<Welcome/>}></Route>
+<<<<<<< HEAD
     <Route path='/contact' element={<Contact/>}></Route>
     <Route path='/signup' element={<SignUp/>}></Route>
     <Route path='/aboutus' element={<Aboutus/>}></Route>
@@ -27,6 +37,9 @@ function App() {
     <Route path='/homemore' element={<Homemore/>}></Route>
     <Route path='/footer' element={<Footer/>}></Route>
 
+=======
+    <Route path='product' element={<Products/>}></Route>
+>>>>>>> 7db8983 (product)
   </Routes>
 </Router>
 
