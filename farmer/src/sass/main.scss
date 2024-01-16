@@ -6,11 +6,6 @@
 @import "abstract/variable.scss";
 
 
-@import "abstract/extends.scss";
-@import "abstract/function.scss";
-@import "abstract/mixins.scss";
-@import "abstract/variable.scss";
-
 @import "base/animation.scss";
 @import "base/base.scss";
 @import "base/typography.scss";
@@ -21,24 +16,11 @@
 @import "component/impact.scss";
 @import "component/cards.scss";
 
-
-
-
 @import "layout/footer.scss";
 @import "layout/header.scss";
 
-
-
-
-
-
-
-
-@import 'component/home.scss';
 @import "pages/header.scss";
 @import "pages/cont.scss";
-<<<<<<< HEAD
-=======
 @import "pages/sign.scss";
 @import "component/footer.scss";
->>>>>>> 2ab43fc (add footer)
+
