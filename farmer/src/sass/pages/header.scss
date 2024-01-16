@@ -39,7 +39,7 @@ margin-top: 1.7rem;
         display: flex;
        align-items: center;
        margin-top: 1.8rem;
-  
+  justify-content: center;
         li{
             list-style-type: none;
             align-items: center;
@@ -51,6 +51,7 @@ margin-top: 1.7rem;
            font-size: 1.2rem;
              color: rgba(255, 255, 255, 0.778);
              padding: .7rem;
+             text-align: center;
          transition: all .5s;
              &:hover,
              &:active{

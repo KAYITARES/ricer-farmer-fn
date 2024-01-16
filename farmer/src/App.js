@@ -9,8 +9,10 @@ import "../src/sass/main.scss"
 import Aboutus from './pages/aboutus';
 import Moreabout from './pages/aboutmore';
 
+import Homemore from './pages/homemore';
 
-function app() {
+
+function App() {
   return (
     <Router>
       <Routes>
@@ -21,6 +23,10 @@ function app() {
     <Route path='/signup' element={<SignUp/>}></Route>
     <Route path='/aboutus' element={<Aboutus/>}></Route>
     <Route path='/moreabout' element={<Moreabout/>}></Route>
+    <Route path='/home' element={<Home/>}></Route>
+    <Route path='/homemore' element={<Homemore/>}></Route>
+    <Route path='/footer' element={<Footer/>}></Route>
+
   </Routes>
 </Router>
 
