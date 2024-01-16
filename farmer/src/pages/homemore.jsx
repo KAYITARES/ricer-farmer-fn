@@ -9,6 +9,7 @@ function Homemore(){
        <div className="cont-more">
         <div className="pr-cont">
         <h5>WELCOME PAGES ON MORE INFORMATION ON RWANGINGO RICE FARME</h5>
+
         <p className="desc">
 Certainly! Here's a sample welcome paragraph for a rice farmer website: <br /><br />
 
@@ -36,16 +37,6 @@ The Farmers of Rwangongo Rice <br />
 
 Feel free to customize this paragraph based on your farm's unique story, <br />
  values, and any specific information you'd like to convey on your welcome page.
-
-
-
-
-
-
-
-
-
-
 </p>
         </div>
         
