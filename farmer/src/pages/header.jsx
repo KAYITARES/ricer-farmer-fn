@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 import React from "react";
 import logo from "../assets/image/logo.png";
 import '../sass/pages/header.scss';
@@ -39,4 +38,4 @@ import Footer from "../component/footer";
 
 }
 export default Navbar
->>>>>>> 2ab43fc (add footer)
+
