@@ -25,7 +25,8 @@
     "save": "^2.9.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "whatsapp-web.js": "^1.23.0"
   },
   "scripts": {
     "start": "react-scripts start",
