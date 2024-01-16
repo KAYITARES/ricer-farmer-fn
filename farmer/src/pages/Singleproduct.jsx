@@ -21,7 +21,12 @@ function Single(){
         const [isopen, setisopen] =useState(false)
         const [show, close]=useState(false)
         const [plus,setplus]=useState(1)
-        const price=plus*1200
+        let price=plus*1200
+        if(plus>=25){
+            price=plus*1100
+        }else if(plus>=50){
+                   price=plus*1000
+        }
 
         const increament=()=>{
             setplus (plus+1)
@@ -117,7 +122,7 @@ function Single(){
                 <h1>Kigoli:Best rice</h1>
                 <p>by <span>rwangingo.com</span></p>
                 <p>Price: <span>{price}</span>Rwf</p>
-                <p>Kigoli Rice /25kg</p>
+                <p>Kigoli Rice /kg</p>
                 <p>Umuceri mwiza uryoshye kandi utubuka</p>
             </div>
             <div className="shopping">
@@ -155,7 +160,7 @@ function Single(){
         <div className="nav">
             <li><HomeOutlined /><a href="product">Home</a></li>
             <li><BarsOutlined /><a href="#">My carts</a></li>
-            <li><SafetyCertificateOutlined onClick={showModal}/><a href="#" onClick={showModal}>Shop</a></li>
+            <li onClick={showModal}><SafetyCertificateOutlined onClick={showModal}/> Shop</li>
             <li><BarsOutlined /><a href="#">My orders</a></li>
         </div>
         </>
