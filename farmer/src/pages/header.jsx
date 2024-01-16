@@ -13,15 +13,6 @@ import '../sass/pages/header.scss';
     </div>
     <div className="links">
         <ul>
-<<<<<<< HEAD
-            <li><a href="#">home</a></li>
-            <li><a href="#">who we are</a></li>
-            <li><a href="#">contact us</a></li>
-            <li><a href="#">impact</a></li>
-            <li><a href="/product">product</a></li>
-            <li><a href="#">sign up</a></li>
-            <li><a href="/login">login</a></li>
-=======
             <li><a href="#">Home</a></li>
             <li><a href="#">Who we are</a></li>
             <li><a href="#">Contact us</a></li>
@@ -29,7 +20,6 @@ import '../sass/pages/header.scss';
             <li><a href="#">Product</a></li>
             <li><a href="#">Sign up</a></li>
             <li><a href="#">Login</a></li>
->>>>>>> a60a932 (addc)
         </ul>
     </div>
     </div>

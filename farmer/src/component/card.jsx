@@ -1,21 +1,4 @@
 import React from "react";
-<<<<<<< HEAD
-
-const Card=(props)=>{
-   
-return(
-        <>
-        <div className="card">
-
-            <p>{props.name}</p>
-
-        </div>
-        </>
-    )
-}
-
-export default Card
-=======
 const Card = (props) => {
     console.log(props);
     return (
@@ -27,4 +10,3 @@ const Card = (props) => {
     );
 };
 export default Card;
->>>>>>> 26833a0 (add)

@@ -1,39 +1,39 @@
-import React from "react";
-import Button from "../component/aboutus"
 
+import React from 'react';
 
-
-const About = () => {
+const AboutUs = () => {
   return (
-    <div className="about-us-contaner">
+    <div className='about-comtainer'>
       <div className="about">
-        
-      <div className="form">
-      <h1>ABOUT US</h1>
-      <div className="prat">
-        <p>Rice is a priority food crop in Rwanda. With an averageproductivity of 5.8 t /Ha, rice
-          is grown over 12,400 Ha of marshlands in twoseasons
-          which makes around 80,000 MT per year. Although there has beena 
-          rapid rise in rice production .
-        </p>
-    
-      </div>
-      <div className="btn">
-    <button>join-us</button>
+
+      <div className="heading">
+      <h2>aur cooperative</h2>
       </div>
       </div>
-      <div className="icon">
-        <i class='bx bxl-facebook'></i> 
-        <i class='bx bxl-twitter' ></i>
-        <i class='bx bxs-message-dots' ></i>
-        <i class='bx bxl-instagram' ></i>
-</div>
-</div>
-  </div>       
+  
+  <div className="aboutuse">
+      <div className="part2">
+      <div className="links">
+        <h4>ABOUT US</h4>
+        <ul>
+            <li><a href="#">our Mession</a></li>
+            <li><a href="#">aur organisation</a></li>
+            <li><a href="#">Board of derection</a></li>
+            <li><a href="#">Exective Team</a></li>
+            <li><a href="#">Recognitor</a></li>
+            <li><a href="#">careers</a></li>
+        </ul>
     
-    
-      
- 
+    </div>
+      </div>
+      <div className="pragrap">
+        <p>CDAIS came just at the right time”, explains Damien Maniriho, manager of 
+          the local Rural Service Support Programmer“We had just finished rehabilitation 
+          of the Rwangingo marshlands</p>
+      </div>
+      </div>
+    </div>
   );
 };
-export default About;
+
+export default AboutUs;

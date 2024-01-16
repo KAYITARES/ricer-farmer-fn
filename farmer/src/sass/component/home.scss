@@ -4,43 +4,18 @@
   transition: background 0.5s ease-in-out;
 }
 
-<<<<<<< HEAD
+
    
 .home-container {
-<<<<<<< HEAD
-  width: 100%;
-  height: auto;
-  padding:  0.5rem 1.5rem;
-   
-=======
     width: 100%;
     height: 70vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
->>>>>>> d45b87d (add)
   
   }
   
   .heading {
-<<<<<<< HEAD
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2mzM4bSevEVt6aFd2oaajugjMFxr0Uas93w&usqp=CAU);
-    height:auto;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    object-fit:cover;
-    padding: 2rem;
-  }
-
-  .heading h1 {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-top: 10rem;
-    color: rgb(245, 240, 240);
-=======
     display: flex;
     align-items: center;
     height: 100%;
@@ -50,12 +25,11 @@
   .heading h1 {
     margin-top: 10rem;
     color: white;
->>>>>>> d45b87d (add)
     font-size: 48px;
     letter-spacing: 1.2px;
     text-shadow: 1px 3px 3px grey;
   }
-<<<<<<< HEAD
+
   .pragrap{
     display: flex;
     justify-content: space-around;
@@ -71,11 +45,6 @@
   color: black;
   }
 
-  
-   
-
-  
-=======
 
   .pragr{
     display: flex;
@@ -103,20 +72,11 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     -webkit-transform: scale(0,0,0,0.5);
     transform: scale(1.1);
-<<<<<<< HEAD
+
     width: 100px;
   }
->>>>>>> d45b87d (add)
-=======
-    width: 200px;
-    height: 50px;
-   background-color: rgb(26, 24, 24);
-   color: white;
-   letter-spacing: 1.5px;
-   margin-top: 5px;
-  }
->>>>>>> e1b10a4 (add)
-=======
+
+
 .home-container{
 
   width: 100%;
@@ -132,10 +92,10 @@
   text-align: center;
   justify-content: center;
 }
-.heading h1 {
+.heading h2 {
   padding: 5rem;
   font-size: 40px;
   letter-spacing: 1.2px;
   text-shadow: 1px 3px 3px grey;
 }
->>>>>>> 26833a0 (add)
+

@@ -24,7 +24,7 @@
     "web-vitals": "^2.1.4",
     "websocket": "^1.0.34",
     "whatsapp-web.js": "^1.23.0",
-    "styled-components": "^6.1.2",
+    "styled-components": "^6.1.2"
    
   },
   "scripts": {
