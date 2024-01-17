@@ -3,6 +3,13 @@
 @import "abstracts/variables";
 @import "abstracts/function.scss";
 
+@import "component/home.scss";
+@import "pages/header.scss";
+@import "pages/Singleproduct.scss";
+@import "pages/product.scss";
+@import "pages/login.scss";
+
+
 @import "base/animation";
 @import "base/base";
 @import "base/typography";
@@ -38,6 +45,7 @@
 @import "pages/sign.scss";
 @import "pages/Singleproduct.scss";
 @import "pages/weze.scss";
+
 
 
 
