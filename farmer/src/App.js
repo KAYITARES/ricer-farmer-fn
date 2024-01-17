@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./component/home"
+=======
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+>>>>>>> 949988a (add)
 import Welcome from './pages/welcome';
 import Contact from './pages/cont';
 import SignUp from './pages/signup';
@@ -23,9 +27,18 @@ import Kubagara from './pages/kubagara';
 import Weze from './pages/weze';
 import Kwanika from './pages/kwanika';
 import Kubika from './pages/kubika';
+<<<<<<< HEAD
 
 
 
+=======
+
+import React from 'react';
+
+import './sass/main.scss';
+
+
+>>>>>>> 949988a (add)
 function App() {
   return (
     <Router>
@@ -58,7 +71,10 @@ function App() {
 
   
   );
+<<<<<<< HEAD
   
+=======
+>>>>>>> 949988a (add)
 
 }
 export default App;

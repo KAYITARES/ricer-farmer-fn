@@ -30,4 +30,8 @@ import '../sass/pages/header.scss';
     )
 
 }
+<<<<<<< HEAD
 export default Navbar;
+=======
+export default Navbar
+>>>>>>> 949988a (add)
