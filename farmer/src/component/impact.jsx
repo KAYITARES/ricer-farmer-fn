@@ -1,24 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 import React from "react";
-<<<<<<< HEAD
-import Card from "../component/card"
-=======
-import Button from "../component/button"
->>>>>>> 8dd519c (add)
-=======
-import React from "react";
-import Card from "../component/card"
->>>>>>> f0db7d6 (add)
+import Button from "../component/button";
+import Card from "../component/card";
 
 const impact=()=>{
 return(
   <div className="impact-container">
     <div className="impact">
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> f0db7d6 (add)
+
+
     <h5>Rwangingo Rice Farmer Impact</h5>
         <div/>
      
@@ -32,11 +22,7 @@ return(
  
     </div>
     <div className="brac">
-<<<<<<< HEAD
-    <a href="/HOME"><Card name="It is becoming more difficult for farmers to farm because the fertility of the soil is getting depleted. There are many factors that affect soil fertility, including soil. "/></a>
-=======
     <Card name="It is becoming more difficult for farmers to farm because the fertility of the soil is getting depleted. There are many factors that affect soil fertility, including soil. "/>
->>>>>>> f0db7d6 (add)
     <Card name="Rice cultivation is sensitive to changes in temperature and precipitation, and farmers may struggle to adapt to a changing climate."/>
     <Card name="Rice cultivation requires large amounts of water, and farmers in drought-prone areas can struggle to secure enough water for their crops"/>
     </div>
@@ -46,25 +32,15 @@ return(
     <i class='bx bxl-twitter'></i>
     <i class='bx bxl-instagram'></i>
     <i class='bx bx-message-rounded-check'></i>
-<<<<<<< HEAD
-=======
         <h5>Your Impact</h5>
         <p>
  control or guarding of the rice crop became a political function,
  confirming the importance of rice in society</p>
  
 <Button/>
->>>>>>> 8dd519c (add)
-=======
->>>>>>> f0db7d6 (add)
-    </div>
+ </div>
   </div>
 )
 }
-<<<<<<< HEAD
+
 export default impact;
-=======
->>>>>>> 066db33 (add)
-=======
-export default impact;
->>>>>>> f0db7d6 (add)
