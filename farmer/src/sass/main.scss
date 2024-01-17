@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 @import "abstracts/extends";
 @import "abstracts/mixins";
 @import "abstracts/variables";
@@ -6,6 +7,9 @@
 
 
 @import "component/home.scss";
+=======
+
+>>>>>>> d72c28c (add)
 @import "pages/header.scss";
 @import "pages/Singleproduct.scss";
 @import "pages/product.scss";
@@ -30,6 +34,7 @@
 @import "pages/kubagara.scss";
 @import "pages/gutera.scss";
 @import "pages/kuvuruga.scss";
+
 @import "abstract/extends.scss";
 @import "abstract/function.scss";
 @import "abstract/mixins.scss";
@@ -44,6 +49,8 @@
 @import "component/button.scss";
 @import "component/cards.scss";
 
+@import "component/home.scss";
+
 
 @import "layout/footer.scss";
 @import "layout/header.scss";
@@ -52,5 +59,8 @@
 
 
 @import 'component/home.scss';
-@import "pages/header.scss"
+@import "pages/header.scss";
+
+@import "pages/about.scss";
+@import "pages/welcome.scss"
 

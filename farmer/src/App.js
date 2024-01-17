@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> d72c28c (add)
 
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -61,5 +66,24 @@ function App() {
 
   
   );
+<<<<<<< HEAD
 }
 export default App;
+=======
+=======
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Welcome from "./pages/welcame";
+
+const App = () => {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Welcome />}></Route>
+            </Routes>
+        </Router>
+    )
+>>>>>>> 0dd1635 (add)
+}
+export default App
+>>>>>>> d72c28c (add)
