@@ -1,19 +1,20 @@
 import React from "react";
-import '../sass/main.scss';
-import Navbar from "../component/header";
+import "../sass/main.scss";
+// import Navbar from "../component/header";
 import Home from "../component/home";
 import About from "../component/aboutus";
 import Card from "../component/card";
-import Import from "./impact";
+import Impact from "../pages/impact";
 
-const  Welcome=()=>{
+
+function Welcome(){
 return (
     <>
-   <Navbar />
+
    <Home />
 <About/>
 <Card/>
-<Import/>
+<Impact/>
     </>
     )
     }
