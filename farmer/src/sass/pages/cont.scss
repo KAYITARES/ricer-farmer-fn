@@ -1,8 +1,7 @@
 .contact-cont{
-    height: 100vh;
-    // background-image: linear-gradient(to bottom,rgba(0, 106, 255, 0.451), white );
-    // background-position: 2px 1px;
-    background-color: rgba(0, 106, 255, 0.287);
+    height: 55vh;
+    background-color: #0968a7df;
+    margin-top: .2rem;
 }
 .containes{
   
@@ -12,25 +11,18 @@
     height: 100%;
     margin-right: 2rem;
     width:100%;
-   
+    
 }
 
 
 .lgd{
    
-     
+    // margin: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5rem;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-}
-fieldset{
-    border-radius: .3rem;
-    height: 20rem;
-    // margin-top: 15%;
-    margin-top: 10rem;
+    margin-left: 7rem;
+    color: rgba(255, 255, 255, 0.777)
     
 }
 .lbe-container{
@@ -40,7 +32,10 @@ fieldset{
     
 }
 .l1{
-    
+    margin: .6rem;
+    color: rgba(255, 255, 255, 0.77);
+    font-size: large;
+    letter-spacing: .1rem;
     input{
         width: 17.8rem;
         height: 1.5rem;
@@ -53,7 +48,10 @@ fieldset{
     }
 }
 .l2{
-    
+    margin: .6rem;
+    color: rgba(255, 255, 255, 0.805);
+    font-size: large;
+    letter-spacing: .1rem;
     input{
         width: 17.8rem;
         height: 1.5rem;
@@ -66,7 +64,10 @@ fieldset{
 }
 
 .l3{
-   
+    margin: .6rem;
+    color: rgba(255, 255, 255, 0.755);
+    font-size: large;
+    letter-spacing: .1rem;
     input{
         width: 17.8rem;
         height: 1.5rem;
@@ -80,9 +81,11 @@ fieldset{
 }
 
 .l4{
-    .textarea{
-        width: 17.8rem;
-        height: 5rem;
+    margin: .6rem;
+    color: rgba(255, 255, 255, 0.779);
+    font-size: large;
+    letter-spacing: .1rem;
+    textarea{
         border: none;
         border-radius: 25px;
         padding: 1rem;
@@ -106,101 +109,28 @@ h2{
 .fom-conto{
   
     display: flex;
-    justify-content: center;
-    align-items: center;
-  
+    justify-content: space-between;
 }
 .par{
    
     
-    img{
+    p{
         font-size: 1rem;
-     margin-left: 30%;
-     margin-top: 50%;
-        width: 350px;
-        height: 400px;
-    position: relative;
+        padding: 1rem;
+        width: 100%;
+        color: rgba(255, 255, 255, 0.882);
+        padding-right: 8rem;
         
     }
 }
 .btn{
-    // width: 17.8rem;
+    width: 17.8rem;
         height: 1.8rem;
         border: none;
         border-radius: 5rem;
-        width: 75%;
-background-image: linear-gradient(to right,blue, green, yellow );
-background-position: 1px 1px;
-
+        width: 100%;
+     background-color: rgba(128, 128, 128, 0.727);
         font-size: 1rem;
         color: white;
         font-weight: 400;
-        margin-left: 1.7rem;
-        margin-top: 1rem;
-}
-
-@media screen and (max-width:844px) {
-    img{
-        display: none;
-    }
-    .hello{
-       margin: 10%;
-       display: flex;
-    }
-}
-
-@media screen and (max-width:419px) {
-    img{
-        display: none;
-    }
-    .hello{
-       margin: 10%;
-       display: flex;
-       font-size: 20px;
-    }
-    .contact-cont{
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:366px) {
-    img{
-        display: none;
-    }
-    .hello{
-       margin: 10%;
-       display: flex;
-       font-size: 20px;
-    }
-    .contact-cont{
-        width: 100%;
-    }
-
-    fieldset{
-        background-color: blue;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width:318px) {
-    img{
-        display: none;
-    }
-    .hello{
-       margin: 10%;
-       display: flex;
-       font-size: 15px;
-    }
-    .contact-cont{
-       width: 100vd;
-    }
-
-    fieldset{
-        background-color: blue;
-        width: 100%;
-        height: 100%;
-        input{
-            width: 100%;
-        }
-    }
 }
