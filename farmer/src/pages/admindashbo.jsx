@@ -20,27 +20,9 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import Logo from "../assets/logo.jpeg"
 
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
 
 
 
-function createData(No: number,Fullname: string,Email:string,Identification: number,Phone: number,Role: string,
-) {
-  return { No, Fullname,Email, Identification, Phone, Role, };
-}
-
-const rows = [
-  createData(1, "Twizerimana gedeon", "gedeo@gmail.com", 1234567890, 1234567890,"Admin"),
-  createData(2, "Iradukunda francoise", "iradu@gmail.com", 276768888888, 1209876543,"Admin"),
-  createData(3, "Uwingeneye nazifa", "nazi@gmail.com", 12345899900, 234567899000,"Member"),
-  createData(4, "Dusengimana emmy", "emmy@gmail.com", 4456789000, 234578899,"Member"),
-]
 
 const drawerWidth = 240;
 const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })(
@@ -200,42 +182,7 @@ export default function Dashboard() {
               </div>
           </div>
         <Typography paragraph>
-            <div className="member">
-              <h1 style={{color:"black"}}>The five new member of Rwangingo rice farmer</h1>
-              <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell >No</TableCell>
-            <TableCell align="right">Fullname</TableCell>
-            <TableCell align="right">Email</TableCell>
-            <TableCell align="right">Identification&nbsp;</TableCell>
-            <TableCell align="right">Phone&nbsp;</TableCell>
-            <TableCell align="right">Role&nbsp;</TableCell>
-            
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {rows.map((row) => (
-            <TableRow
-              key={row.name}
-              six={{ '&:last-child td, &:last-child th': { border:0 } }}
-            >
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
-              <TableCell align="right">{row.No}</TableCell>
-              <TableCell align="right">{row.Fullname}</TableCell>
-              <TableCell align="right">{row.Email}</TableCell>
-              <TableCell align="right">{row.Identification}</TableCell>
-              <TableCell align="right">{row.Phone}</TableCell>
-              <TableCell align="right">{row.Role}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
-            </div>
+           
         </Typography>
       </Main>
     </Box>
