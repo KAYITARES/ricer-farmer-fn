@@ -1,6 +1,6 @@
 import React from "react"
 import '../sass/main.scss'
-import Navbar from "./header"
+import Navbar from "../component/header";
 import kigoli from "../assets/image/kigoli.png"
 import { HomeOutlined } from '@ant-design/icons';
 import { SafetyCertificateOutlined } from '@ant-design/icons';

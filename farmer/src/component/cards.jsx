@@ -1,38 +1,54 @@
-import React from 'react';
-// import kigoli from "../assets/image/kigoli.png"
-
-import productions from "../assets/costant/production.json"
-// console.log(productions)
+import { useState,useEffect } from "react";
+import axios from "axios";
+// import product from "../assets/costant/production.json";
 
 
 
-const Cards=()=>{
 
-    return (
-        <>
-         {productions.reverse().map((Rice)=>(
-          <div className="card-container">
-           
-              <div className='card-fex'>
-                <div className="image">
-                  <img src={Rice.images[0]} alt="" />
-                </div>
-                
-                <div className="card-text">
-                <h1>{Rice.productname}</h1>
-                <p>Price: <span>{Rice.price}</span>Rwf/kg</p>
-                <span>{Rice.descliption}</span>
-                   <div className="buto">
-                    <button><a href="/Singleproduct">Buy now</a></button>
-                   </div>
-                 </div>
+function Cards() {
+
+  const [product,setProduct]=useState(null)
+
+    useEffect(()=>{
+
+      const fetchData = async ()=>{
+        try {
+
+          const response = await axios.get("http://localhost:3504/groupe/product/get")
+            setProduct(response.data)
+          
+        } catch (error) {
+          console.log(error)
+        }  
+     }
+     fetchData([])
+    },[])
+  return (
+    <>
+      {product ? (product.reverse().map((rice) => (
+        <div className="card-container" key={rice.id}>
+        
+          <div className='card-fex'>
+            <div className="image">
+              <img src={rice.images[0]} alt="" />
+            </div>
+            <div className="card-text">
+              <h1>{rice.productname}</h1>
+              <p>Price: <span>{rice.price}</span>Rwf/kg</p>
+              <span>{rice.descliption}</span>
+              <div className="buto">
+                <button onClick={() => window.location.href=`/Singleproduct?id=${rice._id}`}>Buy now</button>
               </div>
-   
+            </div>
           </div>
-
-          ))}
-        </>
-    )
-
+          
+        </div>
+        ))):(
+          <div className="spinner"></div>
+        )}
+      
+    </>
+  );
 }
-export default Cards
+
+export default Cards;

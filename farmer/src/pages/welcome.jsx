@@ -1,9 +1,7 @@
 import React from "react";
 import '../sass/main.scss'
-import Navbar from "./header";
 
-
-import Footer from "../component/footer";
+import Home from "../component/home";
 
 
 
@@ -11,8 +9,9 @@ function Welcome(){
 return (
     <>
     
-    <Navbar/>
-  <Footer/>
+   
+    <Home/>
+  
   
     </>
 )

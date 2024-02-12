@@ -1,14 +1,15 @@
-import Navbar from "./header"
+import Navbar from "../component/header"
 import Cards from "../component/cards"
 import  Footer  from "../component/footer"
 
-function Product(){
 
+
+
+function Product(){
     return (
         <>
            <Navbar/>
-
-           <div className="product-container">
+            <div className="product-container">
             <h1>This is all product available</h1>
             <div className="different-card">
             <Cards/>

@@ -1,62 +1,76 @@
-import React from 'react';
-import { LockOutlined, UserOutlined } from '@ant-design/icons';
-import { Button, Checkbox, Form, Input } from 'antd';
-import Navbar from './header';
-import Footer from "../component/footer"
+import React, { useState } from 'react';
+import axios from 'axios';
+import { jwtDecode } from "jwt-decode";
+import Navbar from '../component/header';
 
-function Login() {
-  // const onFinish = (values: any) => {
-  //   console.log('Received values of form: ', values);
-  // };
+const Login = () => {
+  const [logindata, setlogindata] = useState({
+    email: '',
+    password: '',
+  });
+
+  const [userrole, setuserrole] = useState(null);
+
+  const HandleInputLogin = (e) => {
+    setlogindata({
+      ...logindata,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const api = 'http://localhost:3504/groupe/user/login';
+      const response = await axios.post(api, logindata);
+      const { token } = response.data;
+      localStorage.setItem('auth-token', token);
+
+      // Decode the token to get user information, including the role
+      const decodedToken = jwtDecode(token);
+      setuserrole(decodedToken.user.role);
+
+      console.log('Login successful', response.data);
+
+      // Move the role-checking logic inside the setuserrole callback
+      setuserrole((prevUserRole) => {
+        if (prevUserRole === "admin") {
+          alert("Welcome to the admin page");
+          window.location.href = "/dashboard";
+        } else if (prevUserRole === "member") {
+          alert("Welcome to the member page");
+          window.location.href = "/memberboard";
+        } else {
+          alert("Welcome to the user page");
+        }
+        return prevUserRole;
+      });
+    } catch (error) {
+      alert(error.response.data.message);
+    }
+  };
 
   return (
     <>
-    <Navbar/>
-        <div className="login-contain">
-            
-            <Form
-      name="normal_login"
-      className="login-form"
-      initialValues={{ remember: true }}
-      // onFinish={onFinish}
-    >
-      <p>Login form</p>
-      <Form.Item
-        name="email"
-        rules={[{ required: true, message: 'Please input your email!' }]}
-      >
-        <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="User email" />
-      </Form.Item>
-      <Form.Item
-        name="password"
-        rules={[{ required: true, message: 'Please input your Password!' }]}
-      >
-        <Input
-          prefix={<LockOutlined className="site-form-item-icon" />}
-          type="password"
-          placeholder="Password"
-        />
-      </Form.Item>
-      <Form.Item>
-        <Form.Item name="remember" valuePropName="checked" noStyle>
-          <Checkbox>Remember me</Checkbox>
-        </Form.Item>
-
-        <a className="login-form-forgot" href="/member">
-          Forgot password
-        </a>
-      </Form.Item>
-
-      <Form.Item className='subone'>
-        <Button type="primary" htmlType="submit" className="login-form-button">
-          Log in
-        </Button>
-        Or <a href="/signup">register now!</a>
-      </Form.Item>
-    </Form>
+      <Navbar />
+      <div className="container">
+        <form onSubmit={handleSubmit}>
+          <h1>Login form </h1>
+          <label>
+            User email:
+            <input type="email" onChange={HandleInputLogin} value={logindata.email} name="email" />
+          </label>
+          <br />
+          <label>
+            Password:
+            <input type="password" onChange={HandleInputLogin} value={logindata.password} name="password" />
+          </label>
+          <br />
+          <button type="submit">
+            Login
+          </button>
+        </form>
       </div>
-      <Footer/>
-        
     </>
   );
 };

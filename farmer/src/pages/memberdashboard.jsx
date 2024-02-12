@@ -19,8 +19,6 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import Logo from "../assets/logo.jpeg"
-import PostProduct from "../component/postproduct"
-import Anouncement from "../component/announcement"
 
 
 
@@ -67,7 +65,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   ...theme.mixins.toolbar,
   justifyContent: 'flex-end',
 }));
-export default function Dashboard() {
+export default function Memberdash() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
   const handleDrawerOpen = () => {
@@ -91,7 +89,7 @@ export default function Dashboard() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-             Admin Dashboard
+             Member Dashboard
           </Typography>
         </Toolbar>
         
@@ -148,46 +146,9 @@ export default function Dashboard() {
       </Drawer>
       <Main open={open}>
         <DrawerHeader />
-          <div className="parcentages">
-              <div className="likes">
-                <h5>Liks:<span>45</span></h5>
-                <span>This is likes of last product</span>
-                <p>
-                  <li>Kigori..........<span>4</span></li>
-                  <li>Packstan.......<span>6</span></li>
-                  <li>Tayilanda......<span>7</span></li>
-                  
-                </p>
-                
-              </div>
-              <div className="likes">
-              <h5>Comments:<span>30</span></h5>
-              <span>This is comments of last product</span>
-              <p>
-                  <li>Kigori..........<span>1</span></li>
-                  <li>Packstan.......<span>3</span></li>
-                  <li>Tayilanda......<span>2</span></li>
-                  
-                </p>
-              </div>
-              <div className="likes">
-              <h5>Supplyed:<span>90</span>Rwf</h5>
-              <span>This is revenue of last product</span>
-              <p>
-                  <li>Kigori..........<span>10000</span>Rwf</li>
-                  <li>Packstan.......<span>30000</span>Rwf</li>
-                  <li>Tayilanda......<span>400000</span>Rwf</li>
-                  
-                </p>
-              </div>
-          </div>
+           
         <Typography paragraph>
-          <div className="post-product">
-          <PostProduct/>
-          </div>
-         <div className="information">
-            <Anouncement/>
-         </div>
+        
            
         </Typography>
       </Main>
