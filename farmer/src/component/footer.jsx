@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./logo";
+// import Logo from "./logo";
 
 
 function Footer(){
@@ -9,7 +9,7 @@ function Footer(){
       <div className="foote-container">
         <div className="fooerr">
             <div className="parr">
-               <Logo/>
+               {/* <Logo/> */}
                 <p>hello everyOne we <span>rwangingo rice farmer</span>
                 <br />we are so happy becouse our farmer <br />is passed well 
                 we have enough tools<br /> and different amchine used to helps <br />
